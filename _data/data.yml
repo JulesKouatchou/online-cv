@@ -14,9 +14,9 @@ sidebar:
 
   # Sidebar links
   email: jrkouatchou@gmail.com
-  phone: 240 483 7592
-  timezone: America/New-York # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
-  citizenship:
+  phone: 1-240-483-7592
+  timezone: America/New-York 
+  citizenship: USA
   website: https://juleskouatchou.github.io/online-cv/ # Include the full website URL, including "http://" or "https://".
   linkedin: jules-rolland-kouatchou
   #xing: alandoe
@@ -86,7 +86,7 @@ experiences:
   title: Experiences
   info:
   - role: Chief Programmer Analyst
-    time: May 20 - Present
+    time: May 2012 - Present
     company: SSAI
     details: |
       Perform the following tasks at NASA Goddard Space Flight Center:
