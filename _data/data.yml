@@ -14,10 +14,10 @@ sidebar:
 
   # Sidebar links
   email: jrkouatchou@gmail.com
-  phone: 012 345 6789
-  timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
+  phone: 240 483 7592
+  timezone: America/New-York # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
   citizenship:
-  website: https://example.com/ # Include the full website URL, including "http://" or "https://".
+  website: https://juleskouatchou.github.io/online-cv/ # Include the full website URL, including "http://" or "https://".
   linkedin: jules-rolland-kouatchou
   #xing: alandoe
   github: JulesKouatchou
@@ -121,7 +121,26 @@ experiences:
         - The implementation of numerical atmospheric models on high performance computers
         - The application of latent semantic indexing to large heterogeneous text collections.
 
+awards:
+  title: Awards
+    - NASA Special Act Award 
+      (For exceptional effort, leadership, and initiative in creating and championing the CISTO Advanced Software Technology Group software training), April 2021.
+    - Tetra Tech AMT, Achievement Award, 2011.
+    - NASA RHG Exceptional Achievement SCIENCE TEAM, 2010.
+    - Advanced Management Technology Inc. Achievement Award, 2005.
 
+innovation:
+  title: NASA New Technology Innovation
+    - __Kouatchou J.__ and A. Medema 2019, 
+      "Basic Comparison of Various Computing Languages: Python, Julia, Matlab, IDL, R, Java, Scala, C, Fortran” 
+      [zenodo3675797](https://juleskouatchou.github.io/basic_language_comparison/).
+    - __Kouatchou J.__, A. Da Silva and A. O. Oloso. 2015. "SIVO-PyD: A Python Distribution for Scientific Computing Visualization." 
+      NASA Tech Brief GSC-16530-1.
+    - __Kouatchou J.__ and A. O. Oloso. 2014. "Portable Distributed Scripts (PoDS)." 
+      NASA Tech Brief GSC-16531-1.
+    - Clune T. L., K. Kuo, S. Freeman, et al. 2013. 
+      "Tool for Automated Retrieval of Generic Event Tracks (TARGET)" NASA Tech Brief GSC-16665-1.
+  
 projects:
   title: Noticeable projects
   intro: >
