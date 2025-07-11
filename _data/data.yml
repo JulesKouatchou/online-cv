@@ -17,7 +17,7 @@ sidebar:
   phone: 1-240-483-7592
   timezone: America/New-York 
   citizenship: USA
-  website: https://juleskouatchou.github.io/online-cv/ # Include the full website URL, including "http://" or "https://".
+  website: "https://juleskouatchou.github.io/online-cv/" # Include the full website URL, including "http://" or "https://".
   linkedin: jules-rolland-kouatchou
   #xing: alandoe
   github: JulesKouatchou
