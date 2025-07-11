@@ -16,7 +16,42 @@
   </div><!--//intro-->
   {% endif %}
 
-  {% for publication in publications.books %}
+<!--
+<h3 class="section-title">
+   <span class="fa-stack fa-xs">
+     <i class="fas fa-circle fa-stack-2x"></i>
+     <i class="fas fa-file-alt fa-stack-1x fa-inverse"></i>
+   </span>
+   {{ publications.books.title }}
+</h3>
+-->
+
+{% for publication in publications.books %}
+<div class="item">
+  <span class="project-authors">{{ publication.authors }}</span>
+
+  <span class="project-title">
+    {% if publication.link %}
+    <a href="{{ publication.link }}" target="_blank">{{ publication.title }}</a>
+    {% else %}
+    {{ publication.title }}
+    {% endif %}
+  </span>
+
+  <span class="project-chapter">{{ contribution.chapter }}</span>
+  <span class="project-number">{{ contribution.number }}</span>
+  <span class="project-year">{{ contribution.year }}</span>
+
+  {% if contribution.tagline %}
+  - <span class="project-tagline">{{ contribution.tagline }}</span>
+  {% endif %}
+
+</div>
+<!--//item-->
+{% endfor %}
+
+
+<!--   {% for publication in publications.books %}
   <div class="item">
     {% if publication.link %}
       <li><a href="{{ publication.link }}">{{ publication.title }}</a></li>
@@ -27,8 +62,8 @@
     <div class="publication-chapter">{{ publication.chapter }}</div>
     <div class="publication-number">{{ publication.number }}</div> 
     <div class="publication-year">{{ publication.year }}</div> 
-  </div><!--//item-->
-  {% endfor %}
+  </div>
+  {% endfor %} -->
 
   {% for publication in publications.journals %}
   <div class="item">
