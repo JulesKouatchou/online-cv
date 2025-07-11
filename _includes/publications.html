@@ -28,19 +28,19 @@
 
 {% for publication in publications.books %}
 <div class="item">
-  <span class="project-authors">{{ publication.authors }}</span>, 
+  <span class="project-authors">{{ publication.authors }}</span>
 
-  <span class="project-title">
+  , <span class="project-title">
     {% if publication.link %}
     <a href="{{ publication.link }}" target="_blank">{{ publication.title  }}</a>
     {% else %}
     {{ publication.title }}
     {% endif %}
-  </span>,
+  </span>
 
-  <span class="project-chapter">{{ publication.chapter }}</span> ,
-  <span class="project-number">{{ publication.number }}</span>,
-  <span class="project-year">{{ publication.year }}</span>
+  , <span class="project-chapter">{{ publication.chapter }}</span>
+  ' <span class="project-number">{{ publication.number }}</span>
+  , <span class="project-year">{{ publication.year }}</span>
 
   {% if publication.tagline %}
   - <span class="project-tagline">{{ publication.tagline }}</span>
@@ -65,21 +65,55 @@
   </div>
   {% endfor %} -->
 
-  {% for publication in publications.journals %}
+<!--   {% for publication in publications.journals %}
+  <div class="publication-authors">{{ publication.authors }}</div>
   <div class="item">
     {% if publication.link %}
       <li><a href="{{ publication.link }}">{{ publication.title }}</a></li>
     {% else %}
       <li>{{ publication.title }}</li>
     {% endif %}
-    <div class="publication-authors">{{ publication.authors }}</div>
+ 
     <div class="publication-journal">{{ publication.journal }}</div> 
     <div class="publication-volume">{{ publication.volume }}</div>
     <div class="publication-number">{{ publication.number }}</div>
     <div class="publication-pages">{{ publication.pages }}</div> 
     <div class="publication-year">{{ publication.year }}</div> 
-  </div><!--//item-->
+  </div>
+  {% endfor %} -->
+
+  {% for publication in publications.journals %}
+  <div class="item">
+    <span class="project-authors">{{ publication.authors }}</span>
+  
+    , <span class="project-title">
+      {% if publication.link %}
+      <a href="{{ publication.link }}" target="_blank">{{ publication.title  }}</a>
+      {% else %}
+      {{ publication.title }}
+      {% endif %}
+    </span>
+  
+    , <span class="project-journal">{{ publication.journal }}</span>
+    {% if <publication class="volume"></publication> %}
+    , <span class="project-volume">{{ publication.volume }}</span>
+    {% endif %}
+    {% if publication.number %}
+    ( <span class="project-number">{{ publication.number }}</span> )
+    {% endif %}
+    {% if publication.pages %}
+    , <span class="project-pages">{{ publication.pages }}</span>
+    {% endif %}
+    , <span class="project-year">{{ publication.year }}</span>
+  
+    {% if publication.tagline %}
+    - <span class="project-tagline">{{ publication.tagline }}</span>
+    {% endif %}
+  
+  </div>
+  <!--//item-->
   {% endfor %}
+
 
   {% for publication in publications.conferences %}
   <div class="item">
