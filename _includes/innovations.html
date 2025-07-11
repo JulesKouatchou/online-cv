@@ -14,9 +14,9 @@
   </div><!--//intro-->
   {% endif %}
 
-  <ul>
+  <ol>
     {% for innovation in innovations.contributions %}
-    </li>
+    <li>
     <div class="item">
       <span class="project-authors">{{ innovation.inventors }}</span>
     
@@ -37,7 +37,7 @@
     </li>
     <!--//item-->
     {% endfor %}
-    </ul>
+    </ol>
 
 </section>
 <!--//section-->

@@ -37,9 +37,9 @@
   </div><!--//intro-->
   {% endif %}
 
-<ul>
+<ol>
 {% for publication in publications.books.contributions %}
-</li>
+<li>
 <div class="item">
   <span class="project-authors">{{ publication.authors }}</span>
 
@@ -63,7 +63,7 @@
 </li>
 <!--//item-->
 {% endfor %}
-</ul>
+</ol>
 </section>
 
 <section class="section journals-section">
@@ -77,9 +77,9 @@
   </div><!--//intro-->
   {% endif %}
 
-<ul>
+<ol>
 {% for publication in publications.journals.contributions %}
-</li>
+<li>
 <div class="item">
   <span class="project-authors">{{ publication.authors }}</span>
 
@@ -115,7 +115,7 @@
 </li>
 <!--//item-->
 {% endfor %}
-</ul>
+</ol>
 </section>
 
 <section class="section conferences-section">
@@ -129,9 +129,9 @@
   </div><!--//intro-->
   {% endif %}
 
-<ul>
+<ol>
 {% for publication in publications.conferences.contributions %}
-</li>
+<li>
 <div class="item">
   <span class="project-authors">{{ publication.authors }}</span>
 
@@ -167,7 +167,7 @@
 </li>
 <!--//item-->
 {% endfor %}
-</ul>
+</ol>
 </section>
 
 
