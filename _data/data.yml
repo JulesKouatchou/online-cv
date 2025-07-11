@@ -124,51 +124,69 @@ experiences:
 awards:
   title: Awards
   info:
-  - title: NASA Special Act Award 
+  - name: "NASA Special Act Award" 
     year: 2021
-    company: NASA
-    details: For exceptional effort, leadership, and initiative in creating and championing the CISTO Advanced Software Technology Group software training
-  - title: Achievement Award
-    company: Tetra Tech AMT
+    organization: NASA
+    details: "For exceptional effort, leadership, and initiative in creating and championing the CISTO Advanced Software Technology Group software training"
+  - name: "Achievement Award"
+    organization: "Tetra Tech AMT"
     year: 2011
-  - title: NASA RHG Exceptional Achievement SCIENCE TEAM
-    company: NASA
+  - name: "NASA RHG Exceptional Achievement SCIENCE TEAM"
+    organization: NASA
     year: 2010
-  - title: Achievement Award
-    company: Advanced Management Technology Inc
+  - name: "Achievement Award"
+    organization: "Advanced Management Technology Inc"
     year: 2005
 
 innovation:
   title: "NASA New Technology Innovation"
   assignments:
   - title: "Basic Comparison of Various Computing Languages: Python, Julia, Matlab, IDL, R, Java, Scala, C, Fortran"
-    authors: 
+    inventors: 
        - J. Kouatchou
        - A. Medema
     link: "https://software.nasa.gov/software/GSC-18111-1"
     year: 2019
   - title: "SIVO-PyD: A Python Distribution for Scientific Computing Visualization"
-    authors: 
+    inventors: 
        - J. Kouatchou
        - A. Da Silva
        - A. O. Oloso
     year: 2015
     link: "https://www.techbriefs.com/component/content/article/22880-gsc-16530-1"
   - title: Portable Distributed Scripts (PoDS)
-    authors: 
+    inventors: 
        - J. Kouatchou
        - A. O. Oloso
     year: 2014
     link: "https://www.techbriefs.com/component/content/article/20048-gsc-16531-1"
   - title: Tool for Automated Retrieval of Generic Event Tracks (TARGET)
-    authors: 
+    inventors: 
        - T. L. Clune
        - K. Kuo
        - S. Freeman
        - et al.
     year: 2013
     link: "https://www.techbriefs.com/component/content/article/16980-gsc-16665-1"
-  
+
+skills:
+  title: Skills &amp; Proficiency
+
+  toolset:
+  - name: Python
+    level: 85%
+  - name: Fortran
+    level: 85%
+  - name: Version Control with Git
+    level: 70%
+  - name: Jupyter notebook
+    level: 70%
+  - name: Cloud computing
+    level: 60%
+  - name: AI/ML
+    level: 50%
+
+    
 projects:
   title: Noticeable projects
   intro: >
@@ -284,22 +302,7 @@ recommendations:
 
       He is a great employee!
 
-skills:
-  title: Skills &amp; Proficiency
 
-  toolset:
-  - name: Python
-    level: 85%
-  - name: Fortran
-    level: 85%
-  - name: Version Control with Git
-    level: 70%
-  - name: Jupyter notebook
-    level: 70%
-  - name: Cloud computing
-    level: 60%
-  - name: AI/ML
-    level: 50%
 
 
 
