@@ -16,7 +16,37 @@
   </div><!--//intro-->
   {% endif %}
 
-  {% for publication in publications.papers %}
+  {% for publication in publications.books %}
+  <div class="item">
+    {% if publication.link %}
+      <li><a href="{{ publication.link }}">{{ publication.title }}</a></li>
+    {% else %}
+      <li>{{ publication.title }}</li>
+    {% endif %}
+    <div class="publication-authors">{{ publication.authors }}</div>
+    <div class="publication-chapter">{{ publication.chapter }}</div>
+    <div class="publication-number">{{ publication.number }}</div> 
+    <div class="publication-year">{{ publication.year }}</div> 
+  </div><!--//item-->
+  {% endfor %}
+
+  {% for publication in publications.journals %}
+  <div class="item">
+    {% if publication.link %}
+      <li><a href="{{ publication.link }}">{{ publication.title }}</a></li>
+    {% else %}
+      <li>{{ publication.title }}</li>
+    {% endif %}
+    <div class="publication-authors">{{ publication.authors }}</div>
+    <div class="publication-journal">{{ publication.journal }}</div> 
+    <div class="publication-volume">{{ publication.volume }}</div>
+    <div class="publication-number">{{ publication.number }}</div>
+    <div class="publication-pages">{{ publication.pages }}</div> 
+    <div class="publication-year">{{ publication.year }}</div> 
+  </div><!--//item-->
+  {% endfor %}
+
+  {% for publication in publications.conferences %}
   <div class="item">
     {% if publication.link %}
       <li><a href="{{ publication.link }}">{{ publication.title }}</a></li>
@@ -25,6 +55,9 @@
     {% endif %}
     <div class="publication-authors">{{ publication.authors }}</div>
     <div class="publication-conference">{{ publication.conference }}</div>
+    <div class="publication-volume">{{ publication.volume }}</div>
+    <div class="publication-number">{{ publication.number }}</div>
+    <div class="publication-year">{{ publication.year }}</div> 
   </div><!--//item-->
   {% endfor %}
 

@@ -8,6 +8,12 @@
     {{ awards.title }}
   </h2>
 
+  {% if awards.intro %}
+  <div class="intro">
+      <p>{{ awards.intro }}</p>
+  </div><!--//intro-->
+  {% endif %}
+
   {% for awards in awards.list %}
   <div class="item">
     <div class="meta">
