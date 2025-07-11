@@ -95,15 +95,19 @@
     </span>
   
     , <span class="project-journal">{{ publication.journal }}</span>
+
     {% if <publication class="volume"></publication> %}
     , <span class="project-volume">{{ publication.volume }}</span>
     {% endif %}
+
     {% if publication.number %}
     ( <span class="project-number">{{ publication.number }}</span> )
     {% endif %}
+
     {% if publication.pages %}
     , <span class="project-pages">{{ publication.pages }}</span>
     {% endif %}
+    
     , <span class="project-year">{{ publication.year }}</span>
   
     {% if publication.tagline %}
