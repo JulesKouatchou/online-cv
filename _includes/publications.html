@@ -28,7 +28,7 @@
 
 <section class="section publications-section">
 
-  <h3 class="section-title">
+  <h3> 
     {{ publications.books.title }}
   </h3>
 
@@ -40,7 +40,7 @@
 
 {% for publication in publications.books.contributions %}
 <div class="item">
-  <span class="project-authors">{{ publication.authors }}</span>
+  </li><span class="project-authors">{{ publication.authors }}</span></li>
 
   , <span class="project-title">
     {% if publication.link %}
