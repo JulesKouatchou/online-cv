@@ -124,6 +124,7 @@ experiences:
 awards:
   title: Awards
   intro: 
+  awards:
   - name: "NASA Special Act Award" 
     year: 2021
     organization: NASA
@@ -259,7 +260,7 @@ publications:
     number: 18
     year: 2016
     link: "http://dx.doi.org/10.5194/acp-16-4641-2016"
-    
+
   - title: "The description and validation of the computationally Efficient CH4–CO–OH (ECCOHv1.01) chemistry module for 3-D model applications"
     journal: Geoscientific Model Development
     authors: "Y. F. Elshorbany, B. Duncan, S. Strode, et al."
