@@ -121,22 +121,22 @@ experiences:
         - The implementation of numerical atmospheric models on high performance computers
         - The application of latent semantic indexing to large heterogeneous text collections.
 
-# awards:
-#   title: Awards
-#   info:
-#   - name: "NASA Special Act Award" 
-#     year: 2021
-#     organization: NASA
-#     details: "For exceptional effort, leadership, and initiative in creating and championing the CISTO Advanced Software Technology Group software training"
-#   - name: "Achievement Award"
-#     organization: "Tetra Tech AMT"
-#     year: 2011
-#   - name: "NASA RHG Exceptional Achievement SCIENCE TEAM"
-#     organization: NASA
-#     year: 2010
-#   - name: "Achievement Award"
-#     organization: "Advanced Management Technology Inc"
-#     year: 2005
+awards:
+  title: Awards
+  info:
+  - name: "NASA Special Act Award" 
+    year: 2021
+    organization: NASA
+    details: "For exceptional effort, leadership, and initiative in creating and championing the CISTO Advanced Software Technology Group software training"
+  - name: "Achievement Award"
+    organization: "Tetra Tech AMT"
+    year: 2011
+  - name: "NASA RHG Exceptional Achievement SCIENCE TEAM"
+    organization: NASA
+    year: 2010
+  - name: "Achievement Award"
+    organization: "Advanced Management Technology Inc"
+    year: 2005
 
 # innovation:
 #   title: "NASA New Technology Innovation"
