@@ -16,7 +16,9 @@
   </div><!--//intro-->
   {% endif %}
 
+  <ol>
   {% for project in projects.assignments %}
+    <li>
     <div class="item">
 
       <span class="project-title">
@@ -32,7 +34,9 @@
       {% endif %}
 
     </div><!--//item-->
+    </li>
   {% endfor %}
+  </ol>
 
 </section><!--//section-->
 {% endif %}

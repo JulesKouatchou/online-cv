@@ -16,7 +16,9 @@
   <!--//intro-->
   {% endif %}
 
+  <ol>
   {% for contribution in oss.contributions %}
+  <li>
   <div class="item">
 
     <span class="project-title">
@@ -32,8 +34,10 @@
     {% endif %}
 
   </div>
+  </li>
   <!--//item-->
   {% endfor %}
+</ol>
 
 </section>
 <!--//section-->
