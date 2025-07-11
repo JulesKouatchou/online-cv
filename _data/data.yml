@@ -131,10 +131,23 @@ awards:
 
 innovation:
   title: NASA New Technology Innovation
-    - "J. Kouatchou and A. Medema, Basic Comparison of Various Computing Languages: Python, Julia, Matlab, IDL, R, Java, Scala, C, Fortran".
-    - "J. Kouatchou, A. Da Silva and A. O. Oloso, SIVO-PyD: A Python Distribution for Scientific Computing Visualization, NASA Tech Brief GSC-16530-1, 2015."
-    - J. Kouatchou and A. O. Oloso, Portable Distributed Scripts (PoDS),  NASA Tech Brief GSC-16531-1, 2014.
-    - T. L. Clune, K. Kuo, S. Freeman, et al., Tool for Automated Retrieval of Generic Event Tracks (TARGET), NASA Tech Brief GSC-16665-1, 2013.
+  assignments:
+  - title: "Basic Comparison of Various Computing Languages: Python, Julia, Matlab, IDL, R, Java, Scala, C, Fortran"
+    authors: J. Kouatchou and A. Medema
+    link: "https://software.nasa.gov/software/GSC-18111-1"
+    year: 2019
+  - title: "SIVO-PyD: A Python Distribution for Scientific Computing Visualization"
+    authors: J. Kouatchou, A. Da Silva and A. O. Oloso,
+    year: 2015
+    link: "https://www.techbriefs.com/component/content/article/22880-gsc-16530-1"
+  - title: Portable Distributed Scripts (PoDS)
+    authors: J. Kouatchou and A. O. Oloso
+    year: 2014
+    link: "https://www.techbriefs.com/component/content/article/20048-gsc-16531-1"
+  - title: Tool for Automated Retrieval of Generic Event Tracks (TARGET)
+    authors: T. L. Clune, K. Kuo, S. Freeman, et al.
+    year: 2013
+    link: "https://www.techbriefs.com/component/content/article/16980-gsc-16665-1"
   
 projects:
   title: Noticeable projects
