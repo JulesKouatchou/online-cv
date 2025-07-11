@@ -19,17 +19,16 @@
     <div class="meta">
       <div class="upper-row">
         <h3 class="cert-title">{{ awards.name }}</h3>
-        <div class="time">
+        <!-- <div class="time">
           {{ awards.start }} {% if awards.end %} - {{
           awards.end }} {% endif %}
-        </div>
+        </div> -->
       </div>
       <!--//upper-row-->
 
       <div class="second-upper-row">
         <div class="cert-org">
-          {{ awards.organization }} {% if awards.credentialid %}
-          ({{ awards.credentialid }}) {% endif %}
+          {{ awards.organization }} , {{ awards.year }}
         </div>
         {% if awards.credentialurl %}
         <div class="cert-url">
