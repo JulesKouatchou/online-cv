@@ -195,7 +195,7 @@ publications:
   title: Publications
 
   books:
-  - title: General Circulation Model Development: Past, Present, and Future
+  - title: "General Circulation Model Development: Past, Present, and Future"
     chapter: "A Retrospective Analysis of the Pioneering Data Assimilation Experiments with the Mintz-Arakawa General Circulation Model"
     number: 5
     pages: 165-179
