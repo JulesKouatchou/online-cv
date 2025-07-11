@@ -190,28 +190,29 @@ skills:
 projects:
   title: Noticeable projects
   intro: >
-    Here are some of the projects we have been involved in.
+    Here are some of the projects I have been involved in.
   assignments:
-  - title: Velocity
-    link: "#hook"
-    tagline: "A responsive website template designed to help startups promote, market and sell their products."
+  - title: Python training courses
+    link: "https://github.com/astg606/astg_pymaterials"
+    tagline: "Since 2019, have led a team that organizes and provides Python related courses to NASA staff and interns. The courses include introductory level topics, Data Science tools (Numpy, Matplotlib, Pandas, Seaborn, etc.), speeding/accelerating tools (Numba, Dask, etc.), visualiation tools (Holoviews, GeoViews, etc.), AI/ML tools (EDA, Scikit-Learn, TensorFlow, PyTorch), etc."
 
-  - title: DevStudio
+  - title: A Software Suite for Earth-systems Regression Testing (ASSERT)
     link: "#"
-    tagline: "A responsive website template designed to help web developers/designers market their services."
+    tagline: "Partcipated in the design and implementation of a Python tool that facilitates the integration of various Earth System model for regression testing."
 
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+  - title: Python application for tracking the movement of the International Space Station (ISS)
+    link: "https://github.com/astg606/pycon/tree/main/year2025/poster"
+    tagline: "The tool performs several web scraping tasks to gather future position of ISS, identify orbits and countries overpassed, gather weather forecast data along orbits, perform data analytics and create statics and interactive vizualizations."
 
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+  - title: Implementation of a Parallel I/O Tool in the Land Information System (LIS)
+    link: "https://github.com/JulesKouatchou/LIS_PFIO"
+    tagline: "We implement a parallel I/O framework (PFIO) in LIS. With PFIO, the available nodes (in a multi-core platform) are split into compute nodes and I/O server nodes so that the output procedures can be done asynchronously.The new addition significantly reduces the output time, the memory requirement, and the computing resources."
 
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+  - title: Add ESMF regridding capability in the Land Information System (LIS)    
+    link: "https://github.com/JulesKouatchou/LIS_esmf_regrid"
+    tagline: "We added Fortran code components to allow the model to use ESMF capabilities to perform on the fly regridding."
 
+ 
 oss:
   title: OSS Contributions
   intro: >
