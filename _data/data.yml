@@ -235,6 +235,7 @@ publications:
 
   books:
   - title: "General Circulation Model Development: Past, Present, and Future"
+    authors: "M. Halem, J. Kouatchou and A. Hudson"
     chapter: "A Retrospective Analysis of the Pioneering Data Assimilation Experiments with the Mintz-Arakawa General Circulation Model"
     number: 5
     pages: 165-179

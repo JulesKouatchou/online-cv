@@ -28,18 +28,18 @@
 
 {% for publication in publications.books %}
 <div class="item">
-  <span class="project-authors">{{ publication.authors }}</span>
+  <span class="project-authors">{{ publication.authors, }}</span>
 
   <span class="project-title">
     {% if publication.link %}
-    <a href="{{ publication.link }}" target="_blank">{{ publication.title }}</a>
+    <a href="{{ publication.link }}" target="_blank">{{ publication.title,  }}</a>
     {% else %}
-    {{ publication.title }}
+    {{ publication.title, }}
     {% endif %}
   </span>
 
-  <span class="project-chapter">{{ publication.chapter }}</span>
-  <span class="project-number">{{ publication.number }}</span>
+  <span class="project-chapter">{{ publication.chapter, }}</span>
+  <span class="project-number">{{ publication.number, }}</span>
   <span class="project-year">{{ publication.year }}</span>
 
   {% if publication.tagline %}
