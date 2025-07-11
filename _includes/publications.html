@@ -40,7 +40,8 @@
 
 {% for publication in publications.books.contributions %}
 <div class="item">
-  </li><span class="project-authors">{{ publication.authors }}</span></li>
+  </li>
+  <span class="project-authors">{{ publication.authors }}</span>
 
   , <span class="project-title">
     {% if publication.link %}
@@ -51,48 +52,19 @@
   </span>
 
   , <span class="project-chapter">{{ publication.chapter }}</span>
-  , <span class="project-number">{{ publication.number }}</span>
+  , <span class="project-number">Chapter {{ publication.number }}</span>
   , <span class="project-year">{{ publication.year }}</span>
 
   {% if publication.tagline %}
   - <span class="project-tagline">{{ publication.tagline }}</span>
   {% endif %}
-
+  </li>
 </div>
 <!--//item-->
 {% endfor %}
 </section>
 
-<!--   {% for publication in publications.books %}
-<div class="item">
-  {% if publication.link %}
-    <li><a href="{{ publication.link }}">{{ publication.title }}</a></li>
-  {% else %}
-    <li>{{ publication.title }}</li>
-  {% endif %}
-  <div class="publication-authors">{{ publication.authors }}</div>
-  <div class="publication-chapter">{{ publication.chapter }}</div>
-  <div class="publication-number">{{ publication.number }}</div> 
-  <div class="publication-year">{{ publication.year }}</div> 
-</div>
-{% endfor %} -->
 
-<!--   {% for publication in publications.journals %}
-  <div class="publication-authors">{{ publication.authors }}</div>
-  <div class="item">
-    {% if publication.link %}
-      <li><a href="{{ publication.link }}">{{ publication.title }}</a></li>
-    {% else %}
-      <li>{{ publication.title }}</li>
-    {% endif %}
- 
-    <div class="publication-journal">{{ publication.journal }}</div> 
-    <div class="publication-volume">{{ publication.volume }}</div>
-    <div class="publication-number">{{ publication.number }}</div>
-    <div class="publication-pages">{{ publication.pages }}</div> 
-    <div class="publication-year">{{ publication.year }}</div> 
-  </div>
-  {% endfor %} -->
 
   {% for publication in publications.journals %}
   <div class="item">
