@@ -123,14 +123,23 @@ experiences:
 
 awards:
   title: Awards
-    - NASA Special Act Award 
-      (For exceptional effort, leadership, and initiative in creating and championing the CISTO Advanced Software Technology Group software training), April 2021.
-    - Tetra Tech AMT, Achievement Award, 2011.
-    - NASA RHG Exceptional Achievement SCIENCE TEAM, 2010.
-    - Advanced Management Technology Inc. Achievement Award, 2005.
+  info:
+  - title: NASA Special Act Award 
+    year: 2021
+    company: NASA
+    details: For exceptional effort, leadership, and initiative in creating and championing the CISTO Advanced Software Technology Group software training
+  - title: Achievement Award
+    company: Tetra Tech AMT
+    year: 2011
+  - title: NASA RHG Exceptional Achievement SCIENCE TEAM
+    company: NASA
+    year: 2010
+  - title: Achievement Award
+    company: Advanced Management Technology Inc
+    year: 2005
 
 innovation:
-  title: NASA New Technology Innovation
+  title: "NASA New Technology Innovation"
   assignments:
   - title: "Basic Comparison of Various Computing Languages: Python, Julia, Matlab, IDL, R, Java, Scala, C, Fortran"
     authors: J. Kouatchou and A. Medema
