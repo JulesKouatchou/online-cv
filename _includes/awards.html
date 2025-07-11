@@ -19,10 +19,6 @@
     <div class="meta">
       <div class="upper-row">
         <h3 class="cert-title">{{ awards.name }}</h3>
-        <!-- <div class="time">
-          {{ awards.start }} {% if awards.end %} - {{
-          awards.end }} {% endif %}
-        </div> -->
       </div>
       <!--//upper-row-->
 
@@ -30,16 +26,6 @@
         <div class="cert-org">
           {{ awards.organization }} , {{ awards.year }}
         </div>
-        {% if awards.credentialurl %}
-        <div class="cert-url">
-          <a
-            href="//{{ awards.credentialurl }}"
-            target="_blank"
-            rel="noreferrer nofollow noopener"
-            >{{ awards.credentialname }}</a
-          >
-        </div>
-        {% endif %}
       </div>
     </div>
     <!--//meta-->
