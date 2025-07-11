@@ -142,19 +142,30 @@ innovation:
   title: "NASA New Technology Innovation"
   assignments:
   - title: "Basic Comparison of Various Computing Languages: Python, Julia, Matlab, IDL, R, Java, Scala, C, Fortran"
-    authors: J. Kouatchou and A. Medema
+    authors: 
+       - J. Kouatchou
+       - A. Medema
     link: "https://software.nasa.gov/software/GSC-18111-1"
     year: 2019
   - title: "SIVO-PyD: A Python Distribution for Scientific Computing Visualization"
-    authors: J. Kouatchou, A. Da Silva and A. O. Oloso,
+    authors: 
+       - J. Kouatchou
+       - A. Da Silva
+       - A. O. Oloso
     year: 2015
     link: "https://www.techbriefs.com/component/content/article/22880-gsc-16530-1"
   - title: Portable Distributed Scripts (PoDS)
-    authors: J. Kouatchou and A. O. Oloso
+    authors: 
+       - J. Kouatchou
+       - A. O. Oloso
     year: 2014
     link: "https://www.techbriefs.com/component/content/article/20048-gsc-16531-1"
   - title: Tool for Automated Retrieval of Generic Event Tracks (TARGET)
-    authors: T. L. Clune, K. Kuo, S. Freeman, et al.
+    authors: 
+       - T. L. Clune
+       - K. Kuo
+       - S. Freeman
+       - et al.
     year: 2013
     link: "https://www.techbriefs.com/component/content/article/16980-gsc-16665-1"
   
@@ -209,40 +220,36 @@ publications:
     number: 5
     pages: 165-179
     year: 2000
-    link: "http://dx.doi.org/10.1016/s0074-6142(00)80053-4"
+    doi: "http://dx.doi.org/10.1016/s0074-6142(00)80053-4"
   
   journals:
   - title: "GEOS-Chem High Performance (GCHP v11-02c): a next-generation implementation of the GEOS-Chem chemical transport model for massively parallel applications"
     journal: Geoscientific Model Development
-    authors: S. D. Eastham, M. S. Long, C. A. Keller, et al.
+    authors: "S. D. Eastham, M. S. Long, C. A. Keller, et al."
     volume: 11
     number: 7
     year: 2018
     pages: 2941-2953
-    link: "http://dx.doi.org/10.5194/gmd-11-2941-2018"
+    doi: "http://dx.doi.org/10.5194/gmd-11-2941-2018"
   - title: "Using beryllium-7 to assess cross-tropopause transport in global models"
     journal: Atmos. Chem. Phys. Discuss
-    authors: H. Liu, D. B. Considine, L. W. Horowitz, et al.
+    authors: "H. Liu, D. B. Considine, L. W. Horowitz, et al."
     volume: 15
     number: 18
     year: 2016
-    link: "http://dx.doi.org/10.5194/acp-16-4641-2016"
+    doi: "http://dx.doi.org/10.5194/acp-16-4641-2016"
   - title: "The description and validation of the computationally Efficient CH4–CO–OH (ECCOHv1.01) chemistry module for 3-D model applications"
     journal: Geoscientific Model Development
-    authors: Y. F. Elshorbany, B. Duncan, S. Strode, et al.
+    authors: "Y. F. Elshorbany, B. Duncan, S. Strode, et al."
     volume: 9
     year: 2016
     pages: 799-822
-    link: "http://dx.doi.org/doi:10.5194/gmd-9-799-2016"
-  - 
-
-
-    
+    doi: "http://dx.doi.org/doi:10.5194/gmd-9-799-2016"
 
   conferences:
   - title: Parallel Performance Analysis of Two Infrastructure Frameworks for GMI Chemistry
     conference: American Meteorological Society’s Third Symposium on High Performance Computing for Weather, Water, and Climate, 2017
-    authors: J. Kouatchou T. L. Clune, B. M. Auer, et al.
+    authors: "J. Kouatchou T. L. Clune, B. M. Auer, et al."
   
   - title: The Art of Computer Programming
     link: "#"
@@ -286,13 +293,13 @@ skills:
   - name: Fortran
     level: 85%
   - name: Version Control with Git
-    level: 70
+    level: 70%
   - name: Jupyter notebook
-    level: 70
+    level: 70%
   - name: Cloud computing
-    level: 60
+    level: 60%
   - name: AI/ML
-    level: 50
+    level: 50%
 
 
 
