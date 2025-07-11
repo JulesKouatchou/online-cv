@@ -121,53 +121,53 @@ experiences:
         - The implementation of numerical atmospheric models on high performance computers
         - The application of latent semantic indexing to large heterogeneous text collections.
 
-awards:
-  title: Awards
-  info:
-  - name: "NASA Special Act Award" 
-    year: 2021
-    organization: NASA
-    details: "For exceptional effort, leadership, and initiative in creating and championing the CISTO Advanced Software Technology Group software training"
-  - name: "Achievement Award"
-    organization: "Tetra Tech AMT"
-    year: 2011
-  - name: "NASA RHG Exceptional Achievement SCIENCE TEAM"
-    organization: NASA
-    year: 2010
-  - name: "Achievement Award"
-    organization: "Advanced Management Technology Inc"
-    year: 2005
+# awards:
+#   title: Awards
+#   info:
+#   - name: "NASA Special Act Award" 
+#     year: 2021
+#     organization: NASA
+#     details: "For exceptional effort, leadership, and initiative in creating and championing the CISTO Advanced Software Technology Group software training"
+#   - name: "Achievement Award"
+#     organization: "Tetra Tech AMT"
+#     year: 2011
+#   - name: "NASA RHG Exceptional Achievement SCIENCE TEAM"
+#     organization: NASA
+#     year: 2010
+#   - name: "Achievement Award"
+#     organization: "Advanced Management Technology Inc"
+#     year: 2005
 
-innovation:
-  title: "NASA New Technology Innovation"
-  info:
-  - title: "Basic Comparison of Various Computing Languages: Python, Julia, Matlab, IDL, R, Java, Scala, C, Fortran"
-    inventors: 
-      - J. Kouatchou
-      - A. Medema
-    link: "https://software.nasa.gov/software/GSC-18111-1"
-    year: 2019
-  - title: "SIVO-PyD: A Python Distribution for Scientific Computing Visualization"
-    inventors: 
-      - J. Kouatchou
-      - A. Da Silva
-      - A. O. Oloso
-    year: 2015
-    link: "https://www.techbriefs.com/component/content/article/22880-gsc-16530-1"
-  - title: Portable Distributed Scripts (PoDS)
-    inventors: 
-      - J. Kouatchou
-      - A. O. Oloso
-    year: 2014
-    link: "https://www.techbriefs.com/component/content/article/20048-gsc-16531-1"
-  - title: Tool for Automated Retrieval of Generic Event Tracks (TARGET)
-    inventors: 
-      - T. L. Clune
-      - K. Kuo
-      - S. Freeman
-      - et al.
-    year: 2013
-    link: "https://www.techbriefs.com/component/content/article/16980-gsc-16665-1"
+# innovation:
+#   title: "NASA New Technology Innovation"
+#   info:
+#   - title: "Basic Comparison of Various Computing Languages: Python, Julia, Matlab, IDL, R, Java, Scala, C, Fortran"
+#     inventors: 
+#       - J. Kouatchou
+#       - A. Medema
+#     link: "https://software.nasa.gov/software/GSC-18111-1"
+#     year: 2019
+#   - title: "SIVO-PyD: A Python Distribution for Scientific Computing Visualization"
+#     inventors: 
+#       - J. Kouatchou
+#       - A. Da Silva
+#       - A. O. Oloso
+#     year: 2015
+#     link: "https://www.techbriefs.com/component/content/article/22880-gsc-16530-1"
+#   - title: Portable Distributed Scripts (PoDS)
+#     inventors: 
+#       - J. Kouatchou
+#       - A. O. Oloso
+#     year: 2014
+#     link: "https://www.techbriefs.com/component/content/article/20048-gsc-16531-1"
+#   - title: Tool for Automated Retrieval of Generic Event Tracks (TARGET)
+#     inventors: 
+#       - T. L. Clune
+#       - K. Kuo
+#       - S. Freeman
+#       - et al.
+#     year: 2013
+#     link: "https://www.techbriefs.com/component/content/article/16980-gsc-16665-1"
 
 skills:
   title: Skills &amp; Proficiency
