@@ -282,12 +282,19 @@ skills:
 
   toolset:
   - name: Python
-    level: 98%
-
+    level: 85%
   - name: Fortran
-    level: 98%
+    level: 85%
+  - name: Version Control with Git
+    level: 70
+  - name: Jupyter notebook
+    level: 70
+  - name: Cloud computing
+    level: 60
+  - name: AI/ML
+    level: 50
 
 
 
-footer: >
-  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+#footer: >
+#  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
