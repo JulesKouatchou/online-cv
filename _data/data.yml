@@ -96,7 +96,7 @@ experiences:
         - Write Python applications to automate processes 
           (regression testing, pre- and post-processing analyses, visualization, etc.)
         - Maintain and expand a Python distribution on high-performance computers
-        - Lead a team that oragnizes and provides Python and Fortran 
+        - Lead a team that organizes and provides Python and Fortran 
           related training courses to NASA staff and interns.
   - role: Computational Scientist
     time: January 2004 - April 2012
@@ -185,10 +185,6 @@ oss:
 
 publications:
   title: Publications
-  intro: |
-    You can list your publications in this section. Lorem ipsum dolor sit
-    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-    bibendum fringilla a eu lectus.
 
   books:
   - title: General Circulation Model Development: Past, Present, and Future
@@ -221,6 +217,7 @@ publications:
     year: 2016
     pages: 799-822
     link: "http://dx.doi.org/doi:10.5194/gmd-9-799-2016"
+  - 
 
 
     
