@@ -39,8 +39,8 @@
   {% endif %}
 
 {% for publication in publications.books.contributions %}
+</li>
 <div class="item">
-  </li>
   <span class="project-authors">{{ publication.authors }}</span>
 
   , <span class="project-title">
@@ -58,8 +58,9 @@
   {% if publication.tagline %}
   - <span class="project-tagline">{{ publication.tagline }}</span>
   {% endif %}
-  </li>
+
 </div>
+</li>
 <!--//item-->
 {% endfor %}
 </section>
