@@ -27,7 +27,6 @@
 -->
 
 <section class="section publications-section">
-
   <h3> 
     {{ publications.books.title }}
   </h3>
@@ -65,46 +64,107 @@
 {% endfor %}
 </section>
 
+<section class="section publications-section">
+  <h3> 
+    {{ publications.journals.title }}
+  </h3>
 
+  {% if publications.journals.intro %}
+  <div class="intro">
+    {{ publications.journals.intro | markdownify }}
+  </div><!--//intro-->
+  {% endif %}
 
-  {% for publication in publications.journals %}
-  <div class="item">
-    <span class="project-authors">{{ publication.authors }}</span>
-  
-    , <span class="project-title">
-      {% if publication.link %}
-      <a href="{{ publication.link }}" target="_blank">{{ publication.title  }}</a>
-      {% else %}
-      {{ publication.title }}
-      {% endif %}
-    </span>
-  
-    , <span class="project-journal">{{ publication.journal }}</span>
+{% for publication in publications.journals.contributions %}
+</li>
+<div class="item">
+  <span class="project-authors">{{ publication.authors }}</span>
 
-    {% if publication.volume %}
-    , <span class="project-volume">{{ publication.volume }}</span>
+  , <span class="project-title">
+    {% if publication.link %}
+    <a href="{{ publication.link }}" target="_blank">{{ publication.title  }}</a>
+    {% else %}
+    {{ publication.title }}
     {% endif %}
+  </span>
 
-    {% if publication.number %}
-    ( <span class="project-number">{{ publication.number }}</span> )
+  , <span class="project-journal">{{ publication.journal }}</span>
+
+  {% if publication.volume %}
+  , <span class="project-volume">{{ publication.volume }}</span>
+  {% endif %}
+
+  {% if publication.number %}
+  ( <span class="project-number">{{ publication.number }}</span> )
+  {% endif %}
+
+  {% if publication.pages %}
+  , <span class="project-pages">{{ publication.pages }}</span>
+  {% endif %}
+
+  , <span class="project-year">{{ publication.year }}</span>
+
+  {% if publication.tagline %}
+  - <span class="project-tagline">{{ publication.tagline }}</span>
+  {% endif %}
+
+</div>
+</li>
+<!--//item-->
+{% endfor %}
+</section>
+
+<section class="section publications-section">
+  <h3> 
+    {{ publications.conferences.title }}
+  </h3>
+
+  {% if publications.conferences.intro %}
+  <div class="intro">
+    {{ publications.conferences.intro | markdownify }}
+  </div><!--//intro-->
+  {% endif %}
+
+{% for publication in publications.conferences.contributions %}
+</li>
+<div class="item">
+  <span class="project-authors">{{ publication.authors }}</span>
+
+  , <span class="project-title">
+    {% if publication.link %}
+    <a href="{{ publication.link }}" target="_blank">{{ publication.title  }}</a>
+    {% else %}
+    {{ publication.title }}
     {% endif %}
+  </span>
 
-    {% if publication.pages %}
-    , <span class="project-pages">{{ publication.pages }}</span>
-    {% endif %}
+  , <span class="project-conference">{{ publication.conference }}</span>
 
-    , <span class="project-year">{{ publication.year }}</span>
-  
-    {% if publication.tagline %}
-    - <span class="project-tagline">{{ publication.tagline }}</span>
-    {% endif %}
-  
-  </div>
-  <!--//item-->
-  {% endfor %}
+  {% if publication.volume %}
+  , <span class="project-volume">{{ publication.volume }}</span>
+  {% endif %}
 
+  {% if publication.number %}
+  ( <span class="project-number">{{ publication.number }}</span> )
+  {% endif %}
 
-  {% for publication in publications.conferences %}
+  {% if publication.pages %}
+  , <span class="project-pages">{{ publication.pages }}</span>
+  {% endif %}
+
+  , <span class="project-year">{{ publication.year }}</span>
+
+  {% if publication.tagline %}
+  - <span class="project-tagline">{{ publication.tagline }}</span>
+  {% endif %}
+
+</div>
+</li>
+<!--//item-->
+{% endfor %}
+</section>
+
+  <!-- {% for publication in publications.conferences %}
   <div class="item">
     {% if publication.link %}
       <li><a href="{{ publication.link }}">{{ publication.title }}</a></li>
@@ -116,8 +176,8 @@
     <div class="publication-volume">{{ publication.volume }}</div>
     <div class="publication-number">{{ publication.number }}</div>
     <div class="publication-year">{{ publication.year }}</div> 
-  </div><!--//item-->
-  {% endfor %}
+  </div>
+  {% endfor %} -->
 
 </section><!--//section-->
 {% endif %}
