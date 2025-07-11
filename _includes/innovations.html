@@ -1,4 +1,4 @@
-{% assign awards = site.data.data.awards %} {% if awards %}
+{% assign innovations = site.data.data.innovations %} {% if innovations %}
 <section class="section innovations-section">
   <h2 class="section-title">
     <span class="fa-stack fa-xs">
@@ -8,7 +8,7 @@
     {{ innovations.title }}
   </h2>
 
-  {% if awards.intro %}
+  {% if innovations.intro %}
   <div class="intro">
       <p>{{ innovations.intro }}</p>
   </div><!--//intro-->
