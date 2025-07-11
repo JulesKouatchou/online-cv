@@ -140,7 +140,7 @@ awards:
 
 innovation:
   title: "NASA New Technology Innovation"
-  assignments:
+  info:
   - title: "Basic Comparison of Various Computing Languages: Python, Julia, Matlab, IDL, R, Java, Scala, C, Fortran"
     inventors: 
        - J. Kouatchou
