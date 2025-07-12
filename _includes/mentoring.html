@@ -1,0 +1,102 @@
+{% assign mentoring = site.data.data.mentoring %}
+{% if mentoring %}
+<section class="section publications-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-shapes fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ mentoring.title }}
+  </h2>
+
+  {% if mentoring.intro %}
+  <div class="intro">
+    {{ mentoring.intro | markdownify }}
+  </div><!--//intro-->
+  {% endif %}
+
+<!--
+-->
+
+<section class="section books-section">
+  <h4> 
+    {{ mentoring.doctoral.title }}
+  </h4>
+
+  {% if mentoring.doctoral.intro %}
+  <div class="intro">
+    {{ mentoring.doctoral.intro | markdownify }}
+  </div><!--//intro-->
+  {% endif %}
+
+<ol>
+{% for student in mentoring.doctoral.contributions %}
+<li>
+<div class="item">
+  <span class="project-authors">{{ student.name }}</span>
+
+  , <span class="project-title">
+    {% if student.link %}
+    <a href="{{ student.link }}" target="_blank">{{ student.title  }}</a>
+    {% else %}
+    {{ student.title }}
+    {% endif %}
+  </span>
+
+  , <span class="project-school">{{ student.school }}</span>
+  , <span class="project-year">{{ student.date }}</span>
+
+  {% if student.tagline %}
+  - <span class="project-tagline">{{ student.tagline }}</span>
+  {% endif %}
+
+</div>
+</li>
+<!--//item-->
+{% endfor %}
+</ol>
+</section>
+
+<section class="section interns-section">
+  <h4> 
+    {{ mentoring.interns.title }}
+  </h4>
+
+  {% if mentoring.interns.intro %}
+  <div class="intro">
+    {{ mentoring.interns.intro | markdownify }}
+  </div><!--//intro-->
+  {% endif %}
+
+<ol>
+{% for student in mentoring.interns.contributions %}
+<li>
+<div class="item">
+  <span class="project-authors">{{ student.name }}</span>
+
+  , <span class="project-title">
+    {% if student.link %}
+    <a href="{{ student.link }}" target="_blank">{{ student.title  }}</a>
+    {% else %}
+    {{ student.title }}
+    {% endif %}
+  </span>
+
+  , <span class="project-journal">{{ student.program }}</span>.
+
+  {% if student.tagline %}
+  - <span class="project-tagline">{{ student.tagline }}</span>
+  {% endif %}
+
+</div>
+</li>
+<!--//item-->
+{% endfor %}
+</ol>
+</section>
+
+
+
+</section><!--//section-->
+{% endif %}

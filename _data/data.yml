@@ -483,6 +483,71 @@ publications:
         conference: "Proceedings. Frontiers '99. Seventh Symposium on the Frontiers of Massively Parallel Computation"
         link: "http://dx.doi.org/10.1109/fmpc.1999.750601"
 
+mentoring:
+  title: Mentoring
+  intro:
+
+  doctoral:
+    title: Doctoral Committee
+    intro:
+    contributions:
+    - name: Wa-Muzemba Tshibangu
+      title: "Multi-criteria and Hybrid Flexible Manufacturing System Design Modeling for a Robust Automated Guided Vehicle System"
+      school: " School of Engineering, Morgan State University"
+      date: "Spring 2003"
+    - name: "Kisha L.J. Horne"
+    - title: "Multi-Resolution Image Registration using Stochastic Optimization of Mutual Information"
+      school: "School of Engineering, Morgan State University"
+      date: "Fall 2004"
+
+  interns:
+    title: Interns
+    intro:
+    contributions:
+    - name: "George Liu"
+      title: "Python Application to Extract and Manipulate Data from the DONKI Tool"
+      program: "NASA-USNA 2025 Summer Internship"
+    - name: "Michael Nnamoko"
+      title: "Python Tool for Tracking the International Space Station"
+      program: "SSAI Summer 2025 EXPLORE Internship"
+    - name: "Khalil Alexender"
+      title: "Weather Conditions along the International Space Station Orbits"
+      program: "SSAI-ERHS Science and Technology Internship, Sep 2024 – May 2025"
+    - name: "Rodiat Sanni"
+      title: "NCCS Task Farming: Tool for Running Independent Tasks in Parallel"
+      program: "NASA Summer 2024 Internship Program"
+    - name: "Michael Aidoo"
+      title: "Implementation of the GISS modelE in ASSERT"
+      program: "SSAI Summer 2024 EXPLORE Internship"
+
+    - name: "Deepthi Raghunandan"
+      title: "Understanding Data Science Tools and Workflows in the Real World"
+      program: "NASA Summer 2020 Internship Program"
+    - name: "Alexender Medema"
+      title: "Basic Comparison of High-Level Programming Languages"
+      program: "NASA Summer 2019 Internship Program"
+    - name: "David Gasser"
+      title: "The Jupiter Effect on Solar System Particle Trajectories"
+      program: "NASA INSPIRE 2009 Summer Program"
+    - name: "Tanika Day, Francis Dada and John Patrick"
+      title: "Data, Web and Text Mining"
+      program: "Morgan State University KMCOE Summer 2003 Program"
+    - name: "Emmanuel Cephas"
+      title: "MM5v3 on the NASA Center for Computational Science Parallel Systems"
+      program: "NASA Goddard Space Flight Center Visiting Student Enrichment Program, Summer 2002"
+    - name: "Elana Klein"
+      title: "Design of an Interface for the Preprocessing Procedure of the Eta Code"
+      program: "NASA Goddard Space Flight Center Visiting Student Enrichment Program, Summer 2000"
+    - name: "Sheron Matthews and LaTasha Green"
+      title: "Porting of a Parallel Code on a Network of SGI Workstations"
+      program: "Morgan State University High Performance Computing Summer School, Summer 2000"
+    - name: "Kenneth Pelman"
+      title: "Simulation Experiments with GCMs"
+      program: "NASA Goddard Space Flight Center Visiting Student Enrichment Program, Summer 1998"
+    - name: "Christian Kammogne"
+      title: "Porting MM5 on Cray Systems"
+      program: "NASA Goddard Space Flight Center Visiting Student Enrichment Program, Summer 1998"
+ 
 
 
 # recommendations:
