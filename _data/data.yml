@@ -47,14 +47,11 @@ sidebar:
     title: Interests
     info:
     - item: Volunteering
-      link:
-      
+      link: 
     - item: Writing
       link:
-
-
-    #- item: Cooking
-    #  link:
+    - item: Walking
+      link:
 
 
 career-profile:
@@ -201,6 +198,8 @@ skills:
   - name: Python
     level: 85%
   - name: Fortran
+    level: 85%
+  - name: Scientific data formats (netCDF, HDF5)
     level: 85%
   - name: Version Control with Git
     level: 70%
@@ -392,6 +391,12 @@ publications:
       year: 2000
       pages: 173-190
       link: "http://dx.doi.org/10.1080/00207160008805018"
+    
+    - title: "Implementing MM5 on NASA Goddard Space Flight Center computing systems: a performance study"
+      authors: "J. Dorband, J. Kouatchou, J. Michalakes, et al."
+      journal: "Proceedings. Frontiers '99. Seventh Symposium on the Frontiers of Massively Parallel Computation"
+      year: 1999
+      link: "http://dx.doi.org/10.1109/fmpc.1999.750601"
 
     - title: "Symbolic derivation of finite difference approximations for three-dimensional Poisson equation"
       journal: Int. J. Numerical Methods for Partial Differential Equations
@@ -467,44 +472,45 @@ publications:
       - title: "Improving Data Exploration of Earth Systems Model Data with iViz: A Powerful Easy-to-use Interactive Visualization Toolkit"
         conference: "AGU 2021 Fall Meeting"
         authors: "V. Valenti, C. Cruz, D. Raghunandan, J. Kouatchou, K. E. Knowland, M. Damon and C. Pelissier"
+        link: "https://agu.confex.com/agu/fm21/meetingapp.cgi/Paper/974560"
       - title: "Data-driven Hydrological Models Using Gaussian Processes"
         conference: "AGU 2018 Fall Meeting"
         authors: "J. Kouatchou, C. Pelissier, G. S. Nearing, D. Duffy, C. D. Peters-Lidard and J. V. Geiger"
-        link: ""
+        link: "https://agu.confex.com/agu/fm18/meetingapp.cgi/Paper/378951"
       - title: "Advancing Process Understanding through Data-Intensive Science"
         conference: "AGU 2018 Fall Meeting"
         authors: "C. D. Peters-Lidard, G. S. Nearing, D. M. Mocko, Y. Xia, C. Pelissier, J. V. Geiger, J. Kouatchou and D. Duffy"
-        link: ""
+        link: "https://agu.confex.com/agu/fm18/meetingapp.cgi/Paper/347457"
       - title: "Interannual variability and trends of CH4, CO and OH using the computationally-efficient CH4-OH (ECCOH) module"
         conference: "AGU 2015 Fall Meeting"
         authors: "Elshorbany Y. F., B.N. Duncan, S.A. Strode, J.S. Wang, and J. Kouatchou"
-        link: ""
+        link: "https://ntrs.nasa.gov/citations/20160000373"
       - title: Parallel Performance Analysis of Two Infrastructure Frameworks for GMI Chemistry
         conference: American Meteorological Society’s Third Symposium on High Performance Computing for Weather, Water, and Climate, 2017
         authors: "J. Kouatchou T. L. Clune, B. M. Auer, et al."
+        link: "https://ams.confex.com/ams/97Annual/webprogram/Paper315705.html"
       - title: "Sensitivity of cloud radiative forcing to cloud formation parameterization under three different meteorological fields."
         conference: "2011 European Aerosol Conference"
         authors: "Sotiropoulou R., N. Meskhidze, J. Kouatchou, et al."
-        link: ""
-      - title: "The budget of ozone and its precursors as calculated by the Global Modeling Initiative”"
-        conference: "Eos Trans. AGU, 85(47), Fall Meet. Suppl., 2004"
-        authors: "Rodriguez J., B. Duncan, J. Logan, B. Das, J. Kouatchou and S. Strahan"
-        link: ""
+      #- title: "The budget of ozone and its precursors as calculated by the Global Modeling Initiative”"
+      #  conference: "Eos Trans. AGU, 85(47), Fall Meet. Suppl., 2004"
+      #  authors: "Rodriguez J., B. Duncan, J. Logan, B. Das, J. Kouatchou and S. Strahan"
+      #  link: ""
       - title: "Implementation of an eta belt domain on parallel systems"
         conference: "Proceedings 15th International Parallel and Distributed Processing Symposium. IPDPS 2001, San Francisco, CA, USA, 1833-1840"
         authors: "J. Kouatchou, M. Rancic, P. Norris and J. Geiger"
         link: "http://dx.doi.org/10.1109/IPDPS.2001.925173"
       - title: Performance of an optimized Eta model code on the Cray T3E and a network of PCs
-        link: ""
+        link: "https://ntrs.nasa.gov/citations/20000064616"
         authors: "J. Kouatchou, M. Rancic and J. Geiger"
         conference: "HPCC/CAS 2000 Workshop, NASA Ames Research Center"
       - title: "Cloud field data simulation experiments related to Triana"
-        link: ""
+        #link: ""
         authors: "M. Halem M., J. Kouatchou, M. Rancic, P. Norris and J. Geiger"
         conference: The 2000 International Radiation Symposium, Saint-Petersburg, Russia"
       - title: "A global belt model with the movable locally enhanced resolution: shallow water tests"
         conference: "A Joint Workshop on Regional Climate Modeling and Data Assimilation, Montreal, Quebec, Canada, 2000."
-        link: ""
+        #link: ""
         authors: "M. Rancic, J. Geiger, __J. Kouatchou__ and P. Norris"
       - title: "Multigrid solution of 3D convection-diffusion equations: stability analysis of a high-order scheme"
         conference: "The Fourth International Congress on Industrial and Applied Mathematics, Edinburgh, Scotland, 1999"
@@ -512,10 +518,7 @@ publications:
       - title: "A belt version of the Eta model: preliminary results"
         conference: "The 13th Conference on Numerical Weather Prediction, Denver, Colorado, 1999"
         authors: "M. Rancic, J. Geiger, J. Kouatchou, and F. Mesinger"
-      - title: "Implementing MM5 on NASA Goddard Space Flight Center computing systems: a performance study"
-        authors: "J. Dorband, J. Kouatchou, J. Michalakes, et al."
-        conference: "Proceedings. Frontiers '99. Seventh Symposium on the Frontiers of Massively Parallel Computation"
-        link: "http://dx.doi.org/10.1109/fmpc.1999.750601"
+
 
 journals:
   title: Journals Refereed
