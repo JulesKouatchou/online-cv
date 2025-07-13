@@ -483,6 +483,17 @@ publications:
         conference: "Proceedings. Frontiers '99. Seventh Symposium on the Frontiers of Massively Parallel Computation"
         link: "http://dx.doi.org/10.1109/fmpc.1999.750601"
 
+journals:
+  title: Journal Refereed
+  intro:
+  contributions:
+  - name: International Journal for Numerical Methods in Fluids
+  - name: Journal of Computational Physics 
+  - name: Computers and Mathematics with Applications 
+  - name: Applied Mathematics Letters
+  - name: Applied Mathematical Modelling
+
+
 mentoring:
   title: Mentoring
   intro:

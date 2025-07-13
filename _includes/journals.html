@@ -1,0 +1,35 @@
+{% assign journals = site.data.data.journals %} {% if journals %}
+<section class="section journals-section">
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-lightbulb fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ journals.title }}
+  </h2>
+
+  {% if journals.intro %}
+  <div class="intro">
+      <p>{{ journals.intro }}</p>
+  </div><!--//intro-->
+  {% endif %}
+
+  <ol>
+    {% for journal in journals.contributions %}
+    <li>
+    <div class="item">
+      <span class="project-name">{{ journal.name }}</span>
+    
+      {% if journal.tagline %}
+      - <span class="project-tagline">{{ journal.tagline }}</span>
+      {% endif %}
+    
+    </div>
+    </li>
+    <!--//item-->
+    {% endfor %}
+    </ol>
+
+</section>
+<!--//section-->
+{% endif %}
