@@ -121,6 +121,36 @@ experiences:
         - The implementation of numerical atmospheric models on high performance computers
         - The application of latent semantic indexing to large heterogeneous text collections.
 
+teachings:
+  title: Teaching Experience
+  intro:
+  contributions:
+  - title: "NASA GSFC Python Course Series"
+    link: "https://github.com/astg606/astg_pymaterials"
+    date: "2019-present"
+    tagline: "Lead a team that organizes and delivers Python courses in the Fall, Spring and Summer to NASA staff and interns (over 156 courses, 468 training hours and 3500 learners). "
+  - title: "Data Analysis with Pandas, GeoPandas and MovingPandas"
+    link: "https://github.com/JulesKouatchou/asaq_py/tree/main/data_analysis"
+    organization: "African Society for Air Quality (ASAQ)"
+    date: "January 20-24, 2025"
+    tagline: "Provided a Python course series to help participants to read timeseries air qualitty data files, manipulate and visualize the data."
+  - title: Python Workflows to Extract and Plot Satellite Data Products along Tracks
+    link: "https://github.com/astg606/pycon/tree/main/year2024/tutorial"
+    organization: "PyCon US 2024 Tutorial"
+    date: "May 2024"
+    tagline: "Tutorial showing how to write Python workflows to monitor the movement of a satellite or any moving planar object."
+  - title: "MIT Momentum Python for Beginners"
+    link: "https://github.com/astg606/py_materials/tree/master/mit_momentum"
+    organization: "The MIT Office of Minority Education"
+    date: "January 12-13, 2023"
+    tagline: "Provided an Introduction to Python class to 37 MIT students to prepare them for a NASA sponsored project."
+  - title: "NASA GSFC Python Bootcamp"
+    date: "Summers 2014-2018"
+    tagline: Participated in the organization of the events (three-day intensive Python course series for NASA summer interns) and taught courses.
+  - title: "Python for Scientific Programming"
+    organization: "NASA GSFC GMAO"
+    date: "May/June 2010"
+
 awards:
   title: Awards
   intro: 
@@ -203,10 +233,12 @@ projects:
     link: "https://github.com/JulesKouatchou/LIS_PFIO"
     tagline: "We implement a parallel I/O framework (PFIO) in LIS. With PFIO, the available nodes (in a multi-core platform) are split into compute nodes and I/O server nodes so that the output procedures can be done asynchronously.The new addition significantly reduces the output time, the memory requirement, and the computing resources."
 
-  - title: Add ESMF regridding capability in the Land Information System (LIS)    
+  - title: Incorporate ESMF regridding capability in the Land Information System (LIS)    
     link: "https://github.com/JulesKouatchou/LIS_esmf_regrid"
     tagline: "We added Fortran code components to allow the model to use ESMF capabilities to perform on the fly regridding."
 
+  - title: "Data-driven Hydrological Models Using Gaussian Processes"
+    tagline: "We added add a ML model to the time-step integration of land surface models in NASA Land Information Systems (LIS). We used Gaussian Processes (GPs) to contruct a data-driven model. The model is trained using data from observation sites with a two-year split-record time period for calibration and validation."
  
 oss:
   title: OSS Contributions

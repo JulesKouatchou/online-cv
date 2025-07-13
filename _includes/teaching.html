@@ -1,0 +1,159 @@
+{% assign teachings = site.data.data.teachings %}
+{% if teachings %}
+<section class="section teachings-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-chalkboard-teacher fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ teachings.title }}
+  </h2>
+
+  {% if teachings.intro %}
+  <div class="intro">
+    {{ teachings.intro | markdownify }}
+  </div><!--//intro-->
+  {% endif %}
+
+
+<ol>
+{% for teaching in teachings.contributions %}
+<li>
+<div class="item">
+
+  <span class="project-title">
+    {% if teaching.link %}
+    <a href="{{ teaching.link }}" target="_blank">{{ teaching.title  }}</a>
+    {% else %}
+    {{ teaching.title }}
+    {% endif %}
+  </span>
+
+  {% if teaching.organization %}
+  - <span class="project-organization">{{ teaching.organization }}</span>
+  {% endif %}
+  
+  {% if teaching.date %}
+  - <span class="project-date">{{ teaching.date }}</span>
+  {% endif %}.
+
+  {% if teaching.tagline %}
+  - <span class="project-tagline">{{ teaching.tagline }}</span>
+  {% endif %}
+
+</div>
+</li>
+<!--//item-->
+{% endfor %}
+</ol>
+</section>
+
+<section class="section journals-section">
+  <h4> 
+    {{ teachings.journals.title }}
+  </h4>
+
+  {% if teachings.journals.intro %}
+  <div class="intro">
+    {{ teachings.journals.intro | markdownify }}
+  </div><!--//intro-->
+  {% endif %}
+
+<ol>
+{% for teaching in teachings.journals.contributions %}
+<li>
+<div class="item">
+  <span class="project-authors">{{ teaching.authors }}</span>
+
+  , <span class="project-title">
+    {% if teaching.link %}
+    <a href="{{ teaching.link }}" target="_blank">{{ teaching.title  }}</a>
+    {% else %}
+    {{ teaching.title }}
+    {% endif %}
+  </span>
+
+  , <span class="project-journal">{{ teaching.journal }}</span>
+
+  {% if teaching.volume %}
+  , <span class="project-volume">{{ teaching.volume }}</span>
+  {% endif %}
+
+  {% if teaching.number %}
+  ( <span class="project-number">{{ teaching.number }}</span> )
+  {% endif %}
+
+  {% if teaching.pages %}
+  , <span class="project-pages">{{ teaching.pages }}</span>
+  {% endif %}
+
+  , <span class="project-year">{{ teaching.year }}</span>
+
+  {% if teaching.tagline %}
+  - <span class="project-tagline">{{ teaching.tagline }}</span>
+  {% endif %}
+
+</div>
+</li>
+<!--//item-->
+{% endfor %}
+</ol>
+</section>
+
+<section class="section conferences-section">
+  <h4> 
+    {{ teachings.conferences.title }}
+  </h4>
+
+  {% if teachings.conferences.intro %}
+  <div class="intro">
+    {{ teachings.conferences.intro | markdownify }}
+  </div><!--//intro-->
+  {% endif %}
+
+<ol>
+{% for teaching in teachings.conferences.contributions %}
+<li>
+<div class="item">
+  <span class="project-authors">{{ teaching.authors }}</span>
+
+  , <span class="project-title">
+    {% if teaching.link %}
+    <a href="{{ teaching.link }}" target="_blank">{{ teaching.title  }}</a>
+    {% else %}
+    {{ teaching.title }}
+    {% endif %}
+  </span>
+
+  , <span class="project-conference">{{ teaching.conference }}</span>
+
+  {% if teaching.volume %}
+  , <span class="project-volume">{{ teaching.volume }}</span>
+  {% endif %}
+
+  {% if teaching.number %}
+  ( <span class="project-number">{{ teaching.number }}</span> )
+  {% endif %}
+
+  {% if teaching.pages %}
+  , <span class="project-pages">{{ teaching.pages }}</span>
+  {% endif %}
+
+  , <span class="project-year">{{ teaching.year }}</span>
+
+  {% if teaching.tagline %}
+  - <span class="project-tagline">{{ teaching.tagline }}</span>
+  {% endif %}
+
+</div>
+</li>
+<!--//item-->
+{% endfor %}
+</ol>
+</section>
+
+
+
+</section><!--//section-->
+{% endif %}
