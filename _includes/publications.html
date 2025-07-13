@@ -105,7 +105,9 @@
   , <span class="project-pages">{{ publication.pages }}</span>
   {% endif %}
 
+  {% if publication.year %}
   , <span class="project-year">{{ publication.year }}</span>
+  {% endif %}.
 
   {% if publication.tagline %}
   - <span class="project-tagline">{{ publication.tagline }}</span>
@@ -157,7 +159,9 @@
   , <span class="project-pages">{{ publication.pages }}</span>
   {% endif %}
 
+  {% if publication.year %}
   , <span class="project-year">{{ publication.year }}</span>
+  {% endif %}.
 
   {% if publication.tagline %}
   - <span class="project-tagline">{{ publication.tagline }}</span>
