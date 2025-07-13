@@ -67,7 +67,7 @@ career-profile:
     He has done extensive works in the numerical solution of 
     partial differential equations and has been involved in 
     Data Science and AI/ML projects. 
-    He has taught courses in Python programming, Mathematics and Engineering.
+    He has taught courses in Python programming (Introduction, Data Science, Visualization, AI/ML tools), Mathematics and Engineering.
     
 education:
   title: Education
@@ -204,12 +204,14 @@ skills:
     level: 85%
   - name: Version Control with Git
     level: 70%
+  - name: Github/Gitlab
+    level: 70%
   - name: Jupyter notebook
     level: 70%
-  - name: Cloud computing
+  - name: Cloud computing (Google Colab, AWS Cloud)
     level: 60%
   - name: AI/ML
-    level: 50%
+    level: 55%
 
     
 projects:
