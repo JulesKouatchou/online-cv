@@ -14,7 +14,7 @@ sidebar:
 
   # Sidebar links
   email: jrkouatchou@gmail.com
-  phone: 1-240-483-7592
+  #phone: 1-240-483-7592
   timezone: America/New-York 
   citizenship: USA
   website: "https://juleskouatchou.github.io/online-cv/" # Include the full website URL, including "http://" or "https://".
@@ -214,7 +214,7 @@ skills:
 
     
 projects:
-  title: Noticeable projects
+  title: Notable projects
   intro: >
     Here are some of the projects I have been involved in.
   assignments:
