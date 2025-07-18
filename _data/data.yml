@@ -107,7 +107,7 @@ experiences:
       at NASA Goddard Space Flight Center, perform the following tasks:
         - Assisted scientists in running the GMI code on their systems
         - Profiled and ported the GMI code on available parallel computers
-        - Componentizing the GMI code to make it ESMF compliant
+        - Componentized the GMI code to make it ESMF compliant
         - Incorporated new modules and added new diagnostics capabilities to the GMI code
         - Added GMI related modules in GEOS-5.
         - Wrote technical documentations related to the GMI code modifications and use.
