@@ -95,7 +95,8 @@ experiences:
           (such GEOS CCM, GEOS CTM, LIS, NU-WRF, GMI).
         - Write Python applications to automate processes 
           (regression testing, pre- and post-processing analyses, visualization, etc.)
-        - Maintain and expand a Python distribution on high-performance computers
+        - Maintain and expand Python distributions on high-performance computers
+        - Install third-party software on on high-performance computers
         - Lead a team that organizes and provides Python and Fortran 
           related training courses to NASA staff and interns.
   - role: Computational Scientist
@@ -220,6 +221,8 @@ skills:
     level: 70%
   - name: AI/ML Python tools
     level: 70%
+  - name: Container
+    level: 60%
 
 
     
