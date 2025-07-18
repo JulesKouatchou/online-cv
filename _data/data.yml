@@ -14,7 +14,8 @@ sidebar:
 
   # Sidebar links
   email: jrkouatchou@gmail.com
-  #phone: 1-240-483-7592
+  phone: 1-240-483-7592
+  address: Ellicott City, MD
   timezone: America/New-York 
   citizenship: USA
   website: "https://juleskouatchou.github.io/online-cv/" # Include the full website URL, including "http://" or "https://".
@@ -59,12 +60,14 @@ career-profile:
   summary: |
     Dr. Kouatchou has over twenty years of experience in porting and 
     implementing numerical atmospheric models 
-    (such as MM5, Eta, CCM3, GMI, GEOS-5, LIS, NU-WRF, modelE) 
+    (such as GMI, GEOS-5, LIS, NU-WRF, modelE) 
     on high performance computers. 
     He has done extensive works in the numerical solution of 
-    partial differential equations and has been involved in 
-    Data Science and AI/ML projects. 
-    He has taught courses in Python programming (Introduction, Data Science, Visualization, AI/ML tools), Mathematics and Engineering.
+    PDEs and has been involved in Data Science and AI/ML projects. 
+    He has taught courses in Python programming 
+    (Data Science, Visualization, AI/ML tools), Mathematics and Engineering.
+    He is comfortable in writing user's guides and technical documentations to help
+    scientists and code developers to quickly understand complex concepts and use tools.
     
 education:
   title: Education
@@ -199,6 +202,8 @@ skills:
     level: 85%
   - name: Fortran
     level: 85%
+  - name: MPI
+    level: 85%
   - name: Scientific data formats (netCDF, HDF5)
     level: 85%
   - name: Version Control with Git
@@ -209,8 +214,8 @@ skills:
     level: 70%
   - name: Cloud computing (Google Colab, AWS Cloud)
     level: 60%
-  - name: AI/ML
-    level: 55%
+  - name: AI/ML Python tools
+    level: 70%
 
     
 projects:
@@ -224,39 +229,69 @@ projects:
 
   - title: A Software Suite for Earth-systems Regression Testing (ASSERT)
     link: "#"
-    tagline: "Partcipated in the design and implementation of a Python tool that facilitates the integration of various Earth System model for regression testing."
+    tagline: |
+      Partcipated in the design and implementation of a Python framework that 
+      facilitates the integration of various Earth System model for 
+      regression testing.
 
   - title: Python application for tracking the movement of the International Space Station (ISS)
     link: "https://github.com/astg606/pycon/tree/main/year2025/poster"
-    tagline: "The tool performs several web scraping tasks to gather future position of ISS, identify orbits and countries overpassed, gather weather forecast data along orbits, perform data analytics and create statics and interactive vizualizations."
+    tagline: |
+      The tool performs several web scraping tasks to gather future position of ISS, 
+      identify orbits and countries overpassed, gather weather forecast data along orbits, 
+      perform data analytics and create statics and interactive vizualizations.
 
   - title: Implementation of a Parallel I/O Tool in the Land Information System (LIS)
     link: "https://github.com/JulesKouatchou/LIS_PFIO"
-    tagline: "We implement a parallel I/O framework (PFIO) in LIS. With PFIO, the available nodes (in a multi-core platform) are split into compute nodes and I/O server nodes so that the output procedures can be done asynchronously.The new addition significantly reduces the output time, the memory requirement, and the computing resources."
+    tagline: |
+      We implemented a parallel I/O framework (PFIO) in LIS. 
+      With PFIO, the available nodes (in a multi-core platform) 
+      are split into compute nodes and I/O server nodes so that the output procedures 
+      can be done asynchronously. 
+      The new addition allows to run the LIS model at finer resolutions, 
+      significantly reduces the output time, the memory requirement, 
+      and the computing resources.
 
   - title: Incorporate ESMF regridding capability in the Land Information System (LIS)    
     link: "https://github.com/JulesKouatchou/LIS_esmf_regrid"
-    tagline: "We added Fortran code components to allow the model to use ESMF capabilities to perform on the fly regridding."
+    tagline: |
+      We added Fortran code components to allow the model to use ESMF capabilities 
+      to perform on the fly regridding.
 
   - title: "Data-driven Hydrological Models Using Gaussian Processes"
-    tagline: "We added add a ML model to the time-step integration of land surface models in NASA Land Information Systems (LIS). We used Gaussian Processes (GPs) to contruct a data-driven model. The model is trained using data from observation sites with a two-year split-record time period for calibration and validation."
+    tagline: |
+      We added a ML model to the time-step integration of land surface models 
+      in NASA Land Information Systems (LIS). 
+      We used Gaussian Processes (GPs) to contruct a data-driven model. 
+      The model is trained using data from observation sites with a 
+      two-year split-record time period for calibration and validation.
  
 oss:
   title: OSS Contributions
   intro: >
-    Here are some of the open source software I have been involved in.
+    Here are some of the open source software projects I have been involved in.
   contributions:
   - title: Goddard Earth Observing System (GEOS) - Earth System Modeling
     link: "https://github.com/GEOS-ESM"
-    tagline: "Implement new modules, perform code refactoring, carry-out production runs, write pre- and post-processing scripts, write documentations."
+    tagline: | 
+      Implement new modules, perform code refactoring, 
+      carry-out production runs, write pre- and post-processing scripts, 
+      write documentations.
 
   - title: Basic Comparison of Various Computing Languages
     link: "https://juleskouatchou.github.io/basic_language_comparison/"
-    tagline: "Wrote a software that allows users to compare the performance of high-level rogramming languages (Python, Julia, Matlab, IDL, R, Java, Scala, C, Fortran). It uses a collection of simple problems that highlight the strength and weakness of each language."
+    tagline: |
+      Wrote a software that allows users to compare the performance of 
+      high-level programming languages 
+      (Python, Julia, Matlab, IDL, R, Java, Scala, C, Fortran). 
+      It uses a collection of simple problems that highlight the strength and 
+      weakness of each language.
 
   - title: Portable Distributed Scripts (PoDS)
     link: "https://github.com/JulesKouatchou/PoDS"
-    tagline: "Wrote a Python application that allows users to run an arbitrary collection of independent tasks in parallel on multicore platforms."
+    tagline: |
+      Designed and implemented a Python tool that allows users to run an 
+      arbitrary collection of independent tasks in parallel on multicore platforms.
 
 publications:
   title: Publications
