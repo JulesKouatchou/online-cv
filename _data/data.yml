@@ -202,20 +202,25 @@ skills:
     level: 85%
   - name: Fortran
     level: 85%
+  - name: Technical writing
+    level: 85%
   - name: MPI
     level: 85%
   - name: Scientific data formats (netCDF, HDF5)
     level: 85%
-  - name: Version Control with Git
-    level: 70%
-  - name: Github/Gitlab
-    level: 70%
   - name: Jupyter notebook
-    level: 70%
+    level: 85%
+  - name: IDE (PyCharm, VsCode)
+    level: 80%
+  - name: Version Control with Git
+    level: 75%
+  - name: Github/Gitlab
+    level: 75%
   - name: Cloud computing (Google Colab, AWS Cloud)
-    level: 60%
+    level: 70%
   - name: AI/ML Python tools
     level: 70%
+
 
     
 projects:
