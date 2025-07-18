@@ -58,8 +58,8 @@ sidebar:
 career-profile:
   title: Career Profile
   summary: |
-    Dr. Kouatchou has over twenty years of experience in porting and 
-    implementing numerical atmospheric models 
+    Dr. Kouatchou has over twenty years of experience in porting
+    benchmarking and implementing numerical atmospheric models 
     (such as GMI, GEOS-5, LIS, NU-WRF, modelE) 
     on high performance computers. 
     He has done extensive works in the numerical solution of 
