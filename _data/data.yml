@@ -178,7 +178,9 @@ innovations:
       inventors: "J. Kouatchou and A. Medema"
       link: "https://software.nasa.gov/software/GSC-18111-1"
       year: 2019
-      tagline: "Use simple problems to compare the performance of high-level programming languages."
+      tagline: |
+         Use simple problems to compare the performance of high-level 
+         programming languages.
     - title: "SIVO-PyD: A Python Distribution for Scientific Computing Visualization"
       inventors: "J. Kouatchou, A. Da Silva and A. O. Oloso"
       year: 2015
@@ -188,7 +190,11 @@ innovations:
       inventors: "J. Kouatchou and A. O. Oloso"
       year: 2014
       link: "https://www.techbriefs.com/component/content/article/20048-gsc-16531-1"
-      tagline: "Python tool for allowing users to run independent tasks on multicore platforms."
+      tagline: |
+         Python tool for allowing users to run independent tasks on multicore platforms.
+         This work was extended to create a Python task farming tool
+         that consists of wrapper functions to allow users to seemingly use
+         GNU Parallel and SLURM srun without worrying about the underlying commands.
     - title: "Tool for Automated Retrieval of Generic Event Tracks (TARGET)"
       inventors: "T. L. Clune, K. Kuo, S. Freeman, et al."
       year: 2013
@@ -200,20 +206,24 @@ skills:
 
   toolset:
   - name: Python
-    level: 85%
+    level: 90%
   - name: Fortran
-    level: 85%
+    level: 90%
   - name: Technical writing
-    level: 85%
+    level: 90%
   - name: MPI
     level: 85%
-  - name: Scientific data formats (netCDF, HDF5)
+  - name: Linux/Unix
+    level: 85%
+  - name: Data formats (netCDF, HDF5, CSV, JSON, XML)
     level: 85%
   - name: Jupyter notebook
     level: 85%
   - name: IDE (PyCharm, VsCode)
     level: 80%
   - name: Version Control with Git
+    level: 75%
+  - name: SLURM
     level: 75%
   - name: Github/Gitlab
     level: 75%
