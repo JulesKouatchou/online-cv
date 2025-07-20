@@ -19,7 +19,7 @@ sidebar:
   timezone: America/New-York 
   citizenship: USA
   website: "https://juleskouatchou.github.io/online-cv/" # Include the full website URL, including "http://" or "https://".
-  linkedin: jules-rolland-kouatchou
+  linkedin: jules-rolland-kouatchou-02a9a379
   #xing: alandoe
   github: JulesKouatchou
   #telegram: # add your nickname without '@' sign
@@ -61,7 +61,7 @@ career-profile:
     Dr. Kouatchou has over twenty years of experience in porting,
     benchmarking, refactoring and implementing atmospheric models 
     (such as GMI, GEOS-5, LIS, NU-WRF, modelE) source codes 
-    on high performance computers. 
+    on HPC platforms. 
     He has done extensive works in the numerical solution of 
     PDEs and has been involved in Data Science and AI/ML projects. 
     He has taught courses in Python programming 
