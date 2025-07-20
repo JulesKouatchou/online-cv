@@ -90,13 +90,14 @@ experiences:
     company: SSAI
     details: |
       Perform the following tasks at NASA Goddard Space Flight Center:
-        - Design and implement software components (on high performance computers) 
+        - Design and implement software components (on HPC platforms) 
           to add new capabilities to Earth Science numerical models 
           (such GEOS CCM, GEOS CTM, LIS, NU-WRF, GMI).
+        - Support scientists to implement, train and test AI/ML models
         - Write Python applications to automate processes 
           (regression testing, pre- and post-processing analyses, visualization, etc.)
-        - Maintain and expand Python distributions on high-performance computers
-        - Install third-party software on on high-performance computers
+        - Maintain and expand Python distributions on HPC platforms
+        - Install third-party software on HPC platforms
         - Lead a team that organizes and provides Python and Fortran 
           related training courses to NASA staff and interns.
   - role: Computational Scientist
