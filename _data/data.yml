@@ -226,11 +226,21 @@ skills:
     level: 75%
   - name: SLURM
     level: 75%
-  - name: Github/Gitlab
+  - name: Github/Gitlab/CI-CD
     level: 75%
-  - name: Cloud computing (Google Colab, AWS Cloud)
+  - name: Python visualiation tools (Matplotlib, Cartopy, HoloViews, GeoViews)
+    level: 75%
+  - name: Python web scraping tools (requests, Beautiful)
+    level: 75%
+  - name: Python AI/ML tools (Scikit-Learn, TensorFlow, PyTorch)
     level: 70%
-  - name: AI/ML Python tools
+  - name: Data Science tools (NumPy, Matplolib, Pandas, Seaborn)
+    level: 70%
+  - name: Python multiprocessing amd multicore tools (multiprocessing, joblib, Numba, Dask)
+    level: 70%
+  - name: Python Geoscience tools (GeoPandas, MovingPandas, Xarray)
+    level: 70%
+  - name: Cloud computing (Google Colab, AWS Cloud)
     level: 70%
   - name: Container
     level: 60%
@@ -252,6 +262,13 @@ projects:
       Partcipated in the design and implementation of a Python framework that 
       facilitates the integration of various Earth System model for 
       regression testing.
+
+  - title: Development of a next-generation ensemble prediction system for atmospheric composition
+    tagline: |
+      The goal is to integrate a AI model in the GMAO's 
+      GEOS Composition Forecasting system to enhance the system capabilities. 
+      My task has consisted of writing Python scripts for pre-processing the input data 
+      and automatically creating configuration files to run the model.
 
   - title: Python application for tracking the movement of the International Space Station (ISS)
     link: "https://github.com/astg606/pycon/tree/main/year2025/poster"
@@ -511,6 +528,9 @@ publications:
     title: Conferences
     intro:
     contributions:
+      - title: Application of an AI emulator for atmospheric composition forecasting
+        conference:  NASA Goddard AI Showcase​, June 12, 2025
+        author: V. Shah, P. Castellanos, P. Wales, J. Kouatchou et al.
       - title: "Weather Data along the International Space Station Orbits"
         conference: "PyCon US 2025 Poster Session" 
         authors: "J. Kouatchou, K. Alexender and C. Chen" 
