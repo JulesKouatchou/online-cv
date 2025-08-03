@@ -58,16 +58,13 @@ sidebar:
 career-profile:
   title: Career Profile
   summary: |
-    Dr. Kouatchou has over twenty years of experience in porting,
-    benchmarking, refactoring and implementing atmospheric models 
-    (such as GMI, GEOS-5, LIS, NU-WRF, modelE) source codes 
-    on HPC platforms. 
-    He has done extensive works in the numerical solution of 
-    PDEs and has been involved in Data Science and AI/ML projects. 
-    He has taught courses in Python programming 
+    I have over 15 years of experience in porting,
+    benchmarking, refactoring, optimizing and implementing 
+    Earth Science models on HPC platforms. 
+    I have been involved in Data Science and AI/ML projects. 
+    I have taught courses in Python 
     (Data Science, Visualization, AI/ML tools) and Mathematics.
-    He is comfortable in writing user's guides and technical documentations to help
-    scientists and code developers to quickly understand complex concepts and use tools.
+    I am comfortable in writing source code and technical documentations.
     
 education:
   title: Education
@@ -96,8 +93,7 @@ experiences:
         - Support scientists to implement, train and test AI/ML models
         - Write Python applications to automate processes 
           (regression testing, pre- and post-processing analyses, visualization, etc.)
-        - Maintain and expand Python distributions on HPC platforms
-        - Install third-party software on HPC platforms
+        - Maintain Python distributions and install third-party software on HPC platforms
         - Lead a team that organizes and provides Python and Fortran 
           related training courses to NASA staff and interns.
   - role: Computational Scientist
@@ -105,22 +101,17 @@ experiences:
     company: Tetra Tech AMT
     details: |
       As the Lead Programmer of the Global Modeling Initiative (GMI) core team 
-      at NASA Goddard Space Flight Center, perform the following tasks:
-        - Assisted scientists in running the GMI code on their systems
-        - Profiled and ported the GMI code on available parallel computers
-        - Componentized the GMI code to make it ESMF compliant
-        - Incorporated new modules and added new diagnostics capabilities to the GMI code
-        - Added GMI related modules in GEOS-5.
-        - Wrote technical documentations related to the GMI code modifications and use.
+      at NASA GSFC, performed the following tasks:
+        - Profiled and ported the GMI code to available HPC platforms
+        - Refactored the code, add new modules and new diagnostics capabilities 
+        - Wrote technical documentation on how to use the code.
   - role: Research Scientist
     time: January 1998 - January 2004
     company: Morgan State University
     details: |
       Worked on projects related to:
-        - The benchmarking of weather/climate model codes on parallel computers
-        - The development of parallel algorithms for the numerical solution of 
-          steady-state partial differential equations
-        - The implementation of numerical atmospheric models on high performance computers
+        - The benchmarking and the implementation of weather/climate model codes on HPC platforms
+        - The development of parallel algorithms for the numerical solution of partial differential equations
         - The application of latent semantic indexing to large heterogeneous text collections.
 
 teachings:
