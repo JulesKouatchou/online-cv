@@ -197,15 +197,13 @@ skills:
   title: Skills &amp; Proficiency
 
   toolset:
-  - name: Python
-    level: 90%
-  - name: Fortran
+  - name: Fortran - Python - Shell Scripting
     level: 90%
   - name: Technical writing
     level: 90%
   - name: MPI
     level: 85%
-  - name: Linux/Unix
+  - name: Linux - Unix - SLURM
     level: 85%
   - name: Data formats (netCDF, HDF5, CSV, JSON, XML)
     level: 85%
@@ -217,23 +215,23 @@ skills:
     level: 75%
   - name: SLURM
     level: 75%
-  - name: Github/Gitlab/CI-CD
+  - name: Github - Gitlab - CI/CD pipelines
     level: 75%
-  - name: Python visualiation tools (Matplotlib, Cartopy, HoloViews, GeoViews)
+  - name: Python visualiation tools (Cartopy, HoloViews, GeoViews)
     level: 75%
-  - name: Python web scraping tools (requests, Beautiful)
+  - name: Python web scraping tools (requests, BeautifulSoup)
     level: 75%
-  - name: Python AI/ML tools (Scikit-Learn, TensorFlow, PyTorch)
+  - name: Python AI/ML Frameworks (Scikit-Learn, TensorFlow, PyTorch)
     level: 70%
   - name: Data Science tools (NumPy, Matplolib, Pandas, Seaborn)
     level: 70%
-  - name: Python multiprocessing amd multicore tools (multiprocessing, joblib, Numba, Dask)
+  - name: Python multiprocessing and multicore tools (multiprocessing, joblib, Numba, Dask)
     level: 70%
   - name: Python Geoscience tools (GeoPandas, MovingPandas, Xarray)
     level: 70%
   - name: Cloud computing (Google Colab, AWS Cloud)
     level: 70%
-  - name: Container
+  - name: Containerization
     level: 60%
 
 
