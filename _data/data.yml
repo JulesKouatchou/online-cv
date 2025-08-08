@@ -58,13 +58,17 @@ sidebar:
 career-profile:
   title: Career Profile
   summary: |
-    I have over 15 years of experience in porting,
-    benchmarking, refactoring, optimizing and implementing 
-    Earth Science models on HPC platforms. 
-    I have been involved in Data Science and AI/ML projects. 
-    I have taught courses in Python 
-    (Data Science, visualization, AI/ML tools) and Mathematics.
-    I am comfortable writing source code and technical documentation.
+    With over 15 years of experience in implementing 
+    Earth Science numerical models, 
+    I have experience of porting,
+    benchmarking, refactoring, and optimizing on HPC systems.
+    Skilled in streamlining processes, 
+    I am comfortable training/validating/testing AI/ML models,
+    and automating tasks.
+    Experienced at understanding complex concepts,
+    I write teaching materials, and 
+    I create comprehensive source code and technical documentation.
+    
     
 education:
   title: Education
