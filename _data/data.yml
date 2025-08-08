@@ -95,7 +95,7 @@ experiences:
           (regression testing, pre- and post-processing analyses, visualization, etc.)
         - Maintain Python distributions and install third-party software on HPC platforms
         - Lead a team that organizes and provides Python and Fortran 
-          related training courses to NASA staff and interns.
+          training courses to NASA staff and interns (over 700 learners/year).
   - role: Computational Scientist
     time: January 2004 - April 2012
     company: Tetra Tech AMT
@@ -231,6 +231,8 @@ skills:
     level: 70%
   - name: Cloud computing (Google Colab, AWS Cloud)
     level: 70%
+  - name: NVIDIA RAPIDS (CuPy, CuDF, cuML, Numba)
+    level: 60%
   - name: Containerization
     level: 60%
 
@@ -269,28 +271,61 @@ projects:
   - title: Implementation of a Parallel I/O Tool in the Land Information System (LIS)
     link: "https://github.com/JulesKouatchou/LIS_PFIO"
     tagline: |
-      We implemented a parallel I/O framework (PFIO) in LIS. 
+      I implemented a parallel I/O framework (PFIO) in LIS. 
       With PFIO, the available nodes (in a multi-core platform) 
       are split into compute nodes and I/O server nodes so that the output procedures 
       can be done asynchronously. 
-      The new addition allows to run the LIS model at finer resolutions, 
+      The new addition faciliates running the LIS model at finer resolutions, 
       significantly reduces the output time, the memory requirement, 
       and the computing resources.
 
   - title: Incorporate ESMF regridding capability in the Land Information System (LIS)    
     link: "https://github.com/JulesKouatchou/LIS_esmf_regrid"
     tagline: |
-      We added Fortran code components to allow the model to use ESMF capabilities 
-      to perform on the fly regridding.
+      I successfully designed and implemented Fortran code components 
+      to allow the model to use ESMF capabilities to perform on the fly 
+      regridding tasks. 
+      The code no longer needs to use hard-coded regridding weights.
 
   - title: "Data-driven Hydrological Models Using Gaussian Processes"
     tagline: |
-      We added a ML model to the time-step integration of land surface models 
+      I added a ML model to the time-step integration of land surface models 
       in NASA Land Information Systems (LIS). 
-      We used Gaussian Processes (GPs) to contruct a data-driven model. 
+      I successfully used Gaussian Processes (GPs) to contruct a data-driven model. 
       The model is trained using data from observation sites with a 
       two-year split-record time period for calibration and validation.
- 
+      The results obtained in the project laid the ground for designing
+      more comprehensive AI/ML tools for accurately predicting parameters 
+      such as soil moisture in LIS.
+
+volunteering:
+  title: Volunteering activities
+  intro: >
+    Here are some of the volunteering activities I have been involved in.
+  assignments:
+  - title: Chairperson, Architectural Review Committee
+    date: since Oct 2024
+    tagline: | 
+      As part of the Governors Run Homeowner Association, 
+      coordinate all the committee activities, 
+      organize annual property inspection, 
+      communicate with homeowners to ensure that they follow architectural guidelines,
+      and submit to the Board monthly reports.
+  - title: Member, HCPSS Mathematics Advisory Committee Meeting (MAC)
+    date: Sep 2021 - Jun 2025
+    tagline: |
+      Participated in MAC meetings. 
+      Wrote letters to the Board of Education to support school Math programs. 
+      In the past two years, served as Secretary of the organization.
+  - title: President, Governors Run Homeowner Association
+    date: October 2019 - Sep 2024
+    tagline: |
+      Organized monthly Board meetings, 
+      coordinated activities with the management company, 
+      communicated with homeowners to resolve issues, 
+      made sure the organization met its legal and financial obligations.
+
+
 oss:
   title: OSS Contributions
   intro: >
