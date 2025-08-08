@@ -121,25 +121,37 @@ teachings:
   - title: "NASA GSFC Python Course Series"
     link: "https://github.com/astg606/astg_pymaterials"
     date: "2019-present"
-    tagline: "Lead a team that organizes and delivers Python courses in the Fall, Spring and Summer to NASA staff and interns (over 156 courses, 468 training hours and 3500 learners). "
+    tagline: |
+      Lead a team that organizes and delivers Python courses in the Fall, 
+      Spring and Summer to NASA staff and interns 
+      (over 156 courses, 468 training hours and 3500 learners).
   - title: "Data Analysis with Pandas, GeoPandas and MovingPandas"
     link: "https://github.com/JulesKouatchou/asaq_py/tree/main/data_analysis"
     organization: "African Society for Air Quality (ASAQ)"
     date: "January 20-24, 2025"
-    tagline: "Provided a Python course series to help participants to read timeseries air qualitty data files, manipulate and visualize the data."
+    tagline: |
+      Provided a Python course series to help participants to read 
+      timeseries air qualitty data files, manipulate and visualize the data.
   - title: Python Workflows to Extract and Plot Satellite Data Products along Tracks
     link: "https://github.com/astg606/pycon/tree/main/year2024/tutorial"
     organization: "PyCon US 2024 Tutorial"
     date: "May 2024"
-    tagline: "Tutorial showing how to write Python workflows to monitor the movement of a satellite or any moving planar object."
+    tagline: |
+      Tutorial showing how to write Python workflows to monitor 
+      the movement of a satellite or any moving planar object.
   - title: "MIT Momentum Python for Beginners"
     link: "https://github.com/astg606/py_materials/tree/master/mit_momentum"
     organization: "The MIT Office of Minority Education"
     date: "January 12-13, 2023"
-    tagline: "Provided an Introduction to Python class to 37 MIT students to prepare them for a NASA sponsored project."
+    tagline: |
+      Provided an Introduction to Python class to 37 MIT students to prepare 
+      them for a NASA sponsored project.
   - title: "NASA GSFC Python Bootcamp"
     date: "Summers 2014-2018"
-    tagline: Participated in the organization of the events (three-day intensive Python course series for NASA summer interns) and taught courses.
+    tagline: |
+      Participated in the organization of the events 
+      (three-day intensive Python course series for NASA summer interns) 
+      and taught courses.
   - title: "Python for Scientific Programming"
     organization: "NASA GSFC GMAO"
     date: "May/June 2010"
