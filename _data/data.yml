@@ -261,7 +261,14 @@ projects:
   assignments:
   - title: Python training courses
     link: "https://github.com/astg606/astg_pymaterials"
-    tagline: "Since 2019, have led a team that organizes and provides Python related courses to NASA staff and interns. The courses include introductory level topics, Data Science tools (Numpy, Matplotlib, Pandas, Seaborn, etc.), speeding/accelerating tools (Numba, Dask, etc.), visualiation tools (Holoviews, GeoViews, etc.), AI/ML tools (EDA, Scikit-Learn, TensorFlow, PyTorch), etc."
+    tagline: |
+      Since 2019, leading a team that organizes and provides Python 
+      related courses to NASA staff and interns. 
+      The courses include introductory level topics, 
+      Data Science tools (Numpy, Matplotlib, Pandas, Seaborn, etc.), 
+      speeding/scaling tools (Numba, Dask, etc.), 
+      visualization tools (Holoviews, GeoViews, etc.), 
+      AI/ML frameworks (Scikit-Learn, TensorFlow, PyTorch), etc.
 
   - title: A Software Suite for Earth-systems Regression Testing (ASSERT)
     link: "#"
@@ -280,9 +287,9 @@ projects:
   - title: Python application for tracking the movement of the International Space Station (ISS)
     link: "https://github.com/astg606/pycon/tree/main/year2025/poster"
     tagline: |
-      The tool performs several web scraping tasks to gather future position of ISS, 
+      The tool performs several web scraping tasks to gather future positions of ISS, 
       identify orbits and countries overpassed, gather weather forecast data along orbits, 
-      perform data analytics and create statics and interactive vizualizations.
+      perform data analytics and create statics and interactive visualizations.
 
   - title: Implementation of a Parallel I/O Tool in the Land Information System (LIS)
     link: "https://github.com/JulesKouatchou/LIS_PFIO"
@@ -291,24 +298,24 @@ projects:
       With PFIO, the available nodes (in a multi-core platform) 
       are split into compute nodes and I/O server nodes so that the output procedures 
       can be done asynchronously. 
-      The new addition faciliates running the LIS model at finer resolutions, 
+      The new addition facilitates running the LIS model at finer resolutions, 
       significantly reduces the output time, the memory requirement, 
       and the computing resources.
 
   - title: Incorporate ESMF regridding capability in the Land Information System (LIS)    
     link: "https://github.com/JulesKouatchou/LIS_esmf_regrid"
     tagline: |
-      I successfully designed and implemented Fortran code components 
-      to allow the model to use ESMF capabilities to perform on the fly 
+      Successfully designed and implemented Fortran code components 
+      to allow the LIS model to use ESMF capabilities to perform on the fly 
       regridding tasks. 
       The code no longer needs to use hard-coded regridding weights.
 
   - title: "Data-driven Hydrological Models Using Gaussian Processes"
     tagline: |
-      I added a ML model to the time-step integration of land surface models 
-      in NASA Land Information Systems (LIS). 
-      I successfully used Gaussian Processes (GPs) to contruct a data-driven model. 
-      The model is trained using data from observation sites with a 
+      Successfully added a ML model to the time-step integration of 
+      land surface models in the NASA Land Information Systems (LIS). 
+      Gaussian Processes (GPs) were used to contruct a data-driven model. 
+      The model was trained using data from observation sites with a 
       two-year split-record time period for calibration and validation.
       The results obtained in the project laid the ground for designing
       more comprehensive AI/ML tools for accurately predicting parameters 
