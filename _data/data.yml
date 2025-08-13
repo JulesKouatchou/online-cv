@@ -59,11 +59,11 @@ career-profile:
   title: Career Profile
   summary: |
      Over 17 years of experience in computational science and software development. 
-     Proficient in porting, benchmarking and refactoring 
-     Earth Science models on HPC systems. 
+     Proficient in porting, benchmarking and refactoring Earth Science models 
+     on HPC systems. 
      Excels in engaging with scientists to implement Data Science tools and AI/ML models. 
-     Proficient in automating processes, creating teaching materials and writing
-     comprehensive source code and technical documentation.
+     Proficient in automating processes, creating training materials and writing
+     comprehensive documentation.
 
    
     
@@ -89,13 +89,13 @@ experiences:
     company: SSAI
     details: |
       Perform the following tasks at NASA Goddard Space Flight Center:
-        - Design and implement software components (on HPC platforms) 
+        - Design and implement software components (on HPC systems) 
           to add new capabilities to Earth Science numerical models 
           (such GEOS CCM, GEOS CTM, LIS, NU-WRF, GMI).
         - Support scientists to implement, train and test AI/ML models
         - Write Python applications to automate processes 
           (regression testing, pre- and post-processing analyses, visualization, etc.)
-        - Maintain Python distributions and install third-party software on HPC platforms
+        - Maintain Python distributions and install third-party software on HPC systems
         - Lead a team organizing and providing Python and Fortran 
           training courses to NASA staff and interns (over 700 learners/year).
   - role: Computational Scientist
