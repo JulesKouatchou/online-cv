@@ -229,13 +229,13 @@ skills:
     level: 75%
   - name: SLURM
     level: 75%
-  - name: Github - Gitlab - CI/CD pipelines
+  - name: Github, Gitlab, CI/CD pipelines
     level: 75%
   - name: Python visualiation tools (Cartopy, HoloViews, GeoViews)
     level: 75%
   - name: Python web scraping tools (requests, BeautifulSoup)
     level: 75%
-  - name: Python mysql
+  - name: SQL, Python mysql
     level: 75%
   - name: Python AI/ML Frameworks (Scikit-Learn, TensorFlow, PyTorch)
     level: 70%
