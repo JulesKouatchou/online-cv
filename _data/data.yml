@@ -63,7 +63,7 @@ career-profile:
      on HPC systems. 
      Excels in engaging with scientists to implement Data Science tools and AI/ML models. 
      Proficient in automating processes, creating training materials and writing
-     comprehensive documentation.
+     comprehensive user's guides and developers' documentation.
 
    
     
@@ -92,10 +92,10 @@ experiences:
         - Design and implement software components (on HPC systems) 
           to add new capabilities to Earth Science numerical models 
           (such GEOS CCM, GEOS CTM, LIS, NU-WRF, GMI).
-        - Support scientists to implement, train and test AI/ML models
+        - Support scientists to implement, train and test AI/ML models.
         - Write Python applications to automate processes 
-          (regression testing, pre- and post-processing analyses, visualization, etc.)
-        - Maintain Python distributions and install third-party software on HPC systems
+          (regression testing, pre- and post-processing analyses, visualization, etc.).
+        - Maintain Python distributions and install third-party software on HPC systems.
         - Lead a team organizing and providing Python and Fortran 
           training courses to NASA staff and interns (over 700 learners/year).
   - role: Computational Scientist
@@ -104,16 +104,16 @@ experiences:
     details: |
       As the Lead Programmer of the Global Modeling Initiative (GMI) core team 
       at NASA GSFC, performed the following tasks:
-        - Profiled and ported the GMI code to available HPC platforms
-        - Refactored the code, add new modules and new diagnostics capabilities 
+        - Profiled and ported the GMI code to available HPC platforms.
+        - Refactored the code, add new modules and new diagnostics capabilities. 
         - Wrote technical documentation on how to use the code.
   - role: Research Scientist
     time: January 1998 - January 2004
     company: Morgan State University
     details: |
       Worked on projects related to:
-        - The benchmarking and the implementation of weather/climate model codes on HPC platforms
-        - The development of parallel algorithms for the numerical solution of partial differential equations
+        - The benchmarking and the implementation of weather/climate model codes on HPC platforms.
+        - The development of parallel algorithms for the numerical solution of partial differential equations.
         - The application of latent semantic indexing to large heterogeneous text collections.
 
 teachings:
@@ -211,7 +211,9 @@ skills:
   title: Skills &amp; Proficiency
 
   toolset:
-  - name: Fortran - Python - Shell Scripting
+  - name: Fortran - Python - Shell scripting
+    level: 90%
+  - name: Ford automatic documentation tool
     level: 90%
   - name: Technical writing
     level: 90%
@@ -225,22 +227,22 @@ skills:
     level: 85%
   - name: IDE (PyCharm, VsCode)
     level: 80%
+  - name: Data Science tools (NumPy, Matplolib, Pandas, Seaborn)
+    level: 80%
   - name: Version Control with Git
     level: 75%
   - name: SLURM
     level: 75%
   - name: Github, Gitlab, CI/CD pipelines
     level: 75%
-  - name: Python visualiation tools (Cartopy, HoloViews, GeoViews)
+  - name: Python visualization tools (Cartopy, HoloViews, GeoViews)
     level: 75%
   - name: Python web scraping tools (requests, BeautifulSoup)
     level: 75%
-  - name: SQL, Python mysql
+  - name: SQL, Python mysql, sqlite3
     level: 75%
   - name: Python AI/ML Frameworks (Scikit-Learn, TensorFlow, PyTorch)
-    level: 70%
-  - name: Data Science tools (NumPy, Matplolib, Pandas, Seaborn)
-    level: 70%
+    level: 75%
   - name: Python multiprocessing and multicore tools (multiprocessing, joblib, Numba, Dask)
     level: 70%
   - name: Python Geoscience tools (GeoPandas, MovingPandas, Xarray)
@@ -263,9 +265,9 @@ projects:
     link: "https://github.com/astg606/astg_pymaterials"
     tagline: |
       Since 2019, leading a team that organizes and provides Python 
-      related courses to NASA staff and interns. 
+      related training courses to NASA staff and interns. 
       The courses include introductory level topics, 
-      Data Science tools (Numpy, Matplotlib, Pandas, Seaborn, etc.), 
+      Data Science tools (NumPy, Matplotlib, Pandas, Seaborn, etc.), 
       speeding/scaling tools (Numba, Dask, etc.), 
       visualization tools (Holoviews, GeoViews, etc.), 
       AI/ML frameworks (Scikit-Learn, TensorFlow, PyTorch), etc.
@@ -332,8 +334,8 @@ volunteering:
       As part of the Governors Run Homeowner Association, 
       coordinate all the committee activities, 
       organize annual property inspection, 
-      communicate with homeowners to ensure that they follow architectural guidelines,
-      and submit to the Board monthly reports.
+      communicate with homeowners to ensure they follow HOA architectural guidelines,
+      and write & submit to the Board monthly reports.
   - title: Member, HCPSS Mathematics Advisory Committee Meeting (MAC)
     date: Sep 2021 - Jun 2025
     tagline: |
@@ -346,7 +348,7 @@ volunteering:
       Organized monthly Board meetings, 
       coordinated activities with the management company, 
       communicated with homeowners to resolve issues, 
-      made sure the organization met its legal and financial obligations.
+      made sure the HOA met its legal and financial obligations.
 
 
 oss:
@@ -359,7 +361,7 @@ oss:
     tagline: | 
       Implement new modules, perform code refactoring, 
       carry-out production runs, write pre- and post-processing scripts, 
-      write documentations.
+      write documentation.
 
   - title: Basic Comparison of Various Computing Languages
     link: "https://juleskouatchou.github.io/basic_language_comparison/"
