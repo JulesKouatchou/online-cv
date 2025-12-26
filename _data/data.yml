@@ -158,6 +158,15 @@ teachings:
     organization: "NASA GSFC GMAO"
     date: "May/June 2010"
 
+certifications:
+  title: Certifications
+  intro:
+  certifications:
+  - name: Google Advanced Data Analytics Certificate
+    organization: Coursera
+    start: 2025
+
+
 awards:
   title: Awards
   intro: 
