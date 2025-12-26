@@ -161,8 +161,8 @@ teachings:
 certifications:
   title: Certifications
   intro:
-  certifications:
-  - name: Google Advanced Data Analytics Certificate
+  list:
+  - name: "Google Advanced Data Analytics Certificate"
     organization: Coursera
     start: 2025
 
