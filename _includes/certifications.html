@@ -23,13 +23,12 @@
       <!--//upper-row-->
 
       <div class="second-upper-row">
-        <div class="time">
-          {{ certification.start }} {% if certification.end %} - {{
-          certification.end }} {% endif %}
-        </div>
+
         <div class="cert-org">
           {{ certification.organization }} {% if certification.credentialid %}
-          ({{ certification.credentialid }}) {% endif %}
+          ({{ certification.credentialid }}) {% endif %},
+          {{ certification.start }} {% if certification.end %} - {{
+          certification.end }} {% endif %}
         </div>
         {% if certification.credentialurl %}
         <div class="cert-url">
