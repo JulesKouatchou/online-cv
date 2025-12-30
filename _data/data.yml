@@ -58,12 +58,14 @@ sidebar:
 career-profile:
   title: Career Profile
   summary: |
-     Over 17 years of experience in computational science and software development. 
-     Proficient in porting, benchmarking and refactoring Earth Science models 
-     on HPC systems. 
-     Excels in engaging with scientists to implement Data Science tools and AI/ML models. 
-     Proficient in automating processes, creating training materials and writing
-     comprehensive user's guides and developers' documentation.
+
+    Distinguished Data Scientist and Computational Researcher with over 
+    15 years of experience in high-performance computing (HPC) 
+    and software development. 
+    Proficient in porting, benchmarking, and refactoring complex numerical models.
+    Proven track record of collaborating with scientific teams to integrate 
+    Data Science & AI/ML models, automate large-scale data workflows, 
+    and write comprehensive documentation & training materials.
 
    
     
@@ -86,27 +88,38 @@ experiences:
   info:
   - role: Chief Programmer Analyst
     time: May 2012 - Present
-    company: SSAI
+    company: SSAI - NASA GSFC
     details: |
-      Perform the following tasks at NASA Goddard Space Flight Center:
         - Design and implement software components (on HPC systems) 
           to add new capabilities to Earth Science numerical models 
-          (such GEOS CCM, GEOS CTM, LIS, NU-WRF, GMI).
-        - Support scientists to implement, train and test AI/ML models.
-        - Write Python applications to automate processes 
-          (regression testing, pre- and post-processing analyses, visualization, etc.).
-        - Maintain Python distributions and install third-party software on HPC systems.
-        - Lead a team organizing and providing Python and Fortran 
-          training courses to NASA staff and interns (over 700 learners/year).
+          (such GEOS CCM, GEOS CTM, LIS, NU-WRF, GMI) while improving their
+          overall efficiency and scalability.
+        - Conduct rigorous benchmarking of numerical models to identify bottlenecks 
+          and optimize performance for large-scale deployments.
+        - Refactor complex codebases to add new capabilities and 
+          author comprehensive documentation.
+        - Partner with scientists to design, implement, and test AI/ML models; 
+          focus on improving predictive accuracy by scoring performance 
+          against established scientific benchmarks.
+        - Write Python applications and workflows to automate processes 
+          (regression testing, pre- and post-processing analyses, visualization, etc.)
+          and speed up model analyses.
+        - Maintain Python distributions and install third-party software on HPC systems
+          to facilitate the work of software developers.
+        - Lead training (for over 700 learners annually) in Python 
+          and high-level programming.
   - role: Computational Scientist
     time: January 2004 - April 2012
     company: Tetra Tech AMT
     details: |
       As the Lead Programmer of the Global Modeling Initiative (GMI) core team 
       at NASA GSFC, performed the following tasks:
-        - Profiled and ported the GMI code to available HPC platforms.
-        - Refactored the code, add new modules and new diagnostics capabilities. 
-        - Wrote technical documentation on how to use the code.
+        - Profiled and ported the code to available HPC platforms 
+          to allow scientists to use the code in different computing environments.
+        - Refactored and modernized the code and added new software components 
+          to improve the code maintainability and scalability.
+        - Wrote code and technical documentation 
+          to make the code accessible to all its user's base.
   - role: Research Scientist
     time: January 1998 - January 2004
     company: Morgan State University
@@ -235,7 +248,7 @@ skills:
     level: 85%
   - name: IDE (PyCharm, VsCode)
     level: 80%
-  - name: Data Science tools (NumPy, Matplolib, Pandas, Seaborn)
+  - name: Data Science tools (NumPy, Matplolib, Pandas, Seaborn, Tableau)
     level: 80%
   - name: Version Control with Git
     level: 75%
